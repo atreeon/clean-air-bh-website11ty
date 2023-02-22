@@ -56,6 +56,20 @@ body {
 	max-width: 40em;
 }
 
+.social-links {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: 0.6em;
+}
+
+.social-links a {
+	margin: 0 5px .5em;
+}
+
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
 	clip: rect(0 0 0 0);
@@ -140,6 +154,15 @@ pre:not([class*="language-"]) {
 }
 code {
 	word-break: break-all;
+}
+
+.centerImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* Header */
