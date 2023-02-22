@@ -1,12 +1,11 @@
 ---
-layout: layouts/base.njk
+layout: layouts/maps.njk
 eleventyNavigation:
   key: Maps
   parent: Information
   order: 1
 ---
 
-{{ collections.all | eleventyNavigationBreadcrumb("Maps") | eleventyNavigationToMarkdown | safe }}
 
 
 

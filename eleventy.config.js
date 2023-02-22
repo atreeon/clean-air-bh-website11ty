@@ -7,7 +7,7 @@ const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
 
-const formatItem = function(item, key){
+const formatItem = function (item, key) {
 	return {
 		key: item?.data?.eleventyNavigation?.key ?? null,
 		title: item?.data?.eleventyNavigation?.title ?? item?.data?.eleventyNavigation?.key ?? null,
@@ -17,16 +17,32 @@ const formatItem = function(item, key){
 	};
 }
 
-const listAllParentsOfKey = function(){
-	//recursive
+const getParents = function (collections, key, parents) {
+	let currentItem = getItemByKey(collections, key);
+
+	if (currentItem == undefined) {
+		return parents;
+	}
+
+	if (currentItem.parent != null) {
+		parents.push(currentItem.parent);
+		parents = getParents(collections, currentItem.parent, parents);
+	}
+
+	return parents;
+
+
+	//get current item
+	//	do we have a parent item?
+	//		yes: add the parent item
 }
 
-const getTopLevel = function(collections) {
+const getTopLevel = function (collections) {
 	//as long as they don't have a parent
-	let items = collections.map(function(item){
+	let items = collections.map(function (item) {
 		return formatItem(item);
-	}).filter(function(item){
-		if(item.parent == null && item.key != null){
+	}).filter(function (item) {
+		if (item.parent == null && item.key != null) {
 			return true;
 		}
 
@@ -35,7 +51,7 @@ const getTopLevel = function(collections) {
 
 	return items;
 }
-const getChildren = function(collections, key){
+const getChildren = function (collections, key) {
 	let children = collections.filter(function (item) {
 		if (item.data &&
 			item.data.eleventyNavigation &&
@@ -46,7 +62,7 @@ const getChildren = function(collections, key){
 		} else {
 			return false;
 		}
-	}).map(function(item){
+	}).map(function (item) {
 		return formatItem(item);
 	});
 
@@ -65,6 +81,26 @@ const getCurrentItemFromCollection = function (collections, url) {
 			return false;
 		}
 	});
+
+	return formatItem(currentItem);
+};
+
+const getItemByKey = function (collections, key) {
+	let currentItem = collections.find(function (item) {
+		if (item.data &&
+			item.data.eleventyNavigation &&
+			item.data.eleventyNavigation.key &&
+			item.data.eleventyNavigation.key == key
+		) {
+			return true;
+		} else {
+			return false;
+		}
+	});
+
+	if (currentItem == undefined) {
+		return undefined;
+	}
 
 	return formatItem(currentItem);
 };
@@ -92,6 +128,19 @@ module.exports = function (eleventyConfig) {
 		"./public/": "/",
 		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
 	});
+
+	eleventyConfig.addPassthroughCopy("public");
+	eleventyConfig.addPassthroughCopy("CNAME");
+
+	eleventyConfig.addPassthroughCopy("src/img");
+
+	// eleventyConfig.addPassthroughCopy("assets", {
+	// return {
+	// 	dir: {
+	// 		input: "src",
+	// 		output: "www",
+	// 	}
+	// }});
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
@@ -139,6 +188,14 @@ module.exports = function (eleventyConfig) {
 			});
 		});
 
+	eleventyConfig.addFilter("getItemByKey", function (collections, key) {
+		return getItemByKey(collections, key);
+	});
+
+	eleventyConfig.addFilter("getParents", function (collections, key) {
+		return getParents(collections, key, []);
+	});
+
 	eleventyConfig.addFilter("getTopLevel", function (collections) {
 		return getTopLevel(collections);
 	});
@@ -148,13 +205,17 @@ module.exports = function (eleventyConfig) {
 		return currentItem;
 	});
 
+	eleventyConfig.addFilter("containsParent", function (parentList, key) {
+		return parentList.includes(key);
+	});
+
 	eleventyConfig.addFilter("getChildren", function (collections, key) {
 		let children = getChildren(collections, key);
 		return children;
 	});
 
 	eleventyConfig.addFilter("formatAllItems", function (collections, key) {
-		return collections.map(function(item) {
+		return collections.map(function (item) {
 			return formatItem(item, key);
 		});
 	});
@@ -210,6 +271,15 @@ module.exports = function (eleventyConfig) {
 
 		return children;
 	});
+
+
+
+	eleventyConfig.addShortcode(
+		'externalLink',
+		(url, text) => {
+			return "<a href='" + url + "' target='_blank'>" + text ?? url + "</a>";
+		}
+	)
 
 	eleventyConfig.addShortcode(
 		'getLinkByKeySC',

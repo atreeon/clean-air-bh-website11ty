@@ -19,34 +19,9 @@
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
-		{# get current page #}
-		{% set currentItem = collections.all | getCurrentItem(page.url) %}
 		<header>
 			<a href="/" class="home-link">{{ metadata.title }}</a>
-
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-				{% set topItems = collections.all | getTopLevel %}
-				{%- for entry in topItems %}
-					<li class="nav-item"><a href="{{ entry.url }}"{% if (entry.url == page.url) or (entry.isKeyParent == true) %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
-				</ul>
-			</nav>
 		</header>
-
-		{# get children #}
-		{% set children = collections.all | getChildren(currentItem.key) %}
-		{% if children.length > 0 %}
-		<header>
-		  <nav>
-			{%- for entry in children %}
-				<li class="nav-item"><a href="{{ entry.url }}">{{ entry.key }}</a></li>
-			{%- endfor %}
-		  </nav>
-		</header>
-		{% endif %}
 
 		<main id="skip">
 			{{ content | safe }}

@@ -7,7 +7,20 @@ numberOfLatestPostsToShow: 3
 ---
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+
+<br />
+
+Welcome to the local Brighton & Hove clean air campaign website!
+
+<br />
+
+<br />
+
+Please register for alerts using the {% getLinkByKeySC collections.all, "Register" %} link to subscribe to future
+news and information.
+
+
+<h1>Latest Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}

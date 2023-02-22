@@ -1,10 +1,14 @@
 ---
-layout: layouts/base.njk
+layout: layouts/topLevel.njk
 eleventyNavigation:
   key: Register
-  order: 3
+  order: 2
 ---
+
+## Register
+
+Submit this form to register your name and email address so we can notify you regarding any news
+or to enable us to alert you if we need help with one of our campaigns.
 
 {% registerForUpdates %}
 
-blah

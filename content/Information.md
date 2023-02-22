@@ -1,45 +1,20 @@
 ---
-layout: layouts/base.njk
+layout: layouts/topLevel.njk
 eleventyNavigation:
   key: Information
-  order: 4
+  order: 6
 ---
 
-This is a list of helpful information.
+### Useful information.
 
+<nav>
+	<h2 class="visually-hidden">Top level navigation menu</h2>
+	<ul class="nav">
 
-
-{% set currentItem = collections.all | getCurrentItem(page.url) %}
-CurrentKey = {{ currentItem.key }}
-
-
-Top Level Items:
-{% set topItems = collections.all | getTopLevel %}
-{%- for item in topItems %}
-{{ item.key }} {{ item.title }}
-{%- endfor %}
-
-
-
-All Items:
-{% set allItems = collections.all | formatAllItems(currentItem.key) %}
-{%- for item in allItems %}
-({{ item.key }}, {{ item.key != null }}, {{ item.parent }}, {{ item.parent == null }})
-{%- endfor %}
-
-All Children:
-{% set children = collections.all | getChildren(currentItem.key) %}
-{%- for item in children %}
-{{ item.key }}
-{%- endfor %}
-
-{ % set navPages = collections.all | eleventyNavigation("xyz") % }
-<ul>
-{ %- for entry in navPages % }
-  <li{ % if entry.url == page.url % } class="my-active-class"{ % endif % }>
-    <a href="{ { entry.url } }">{ { entry.title } }</a>
-  </li>
-{ %- endfor % }
-</ul>
-
-
+	{% set currentItem = collections.all | getCurrentItem(page.url) %}
+	{% set parentsData = collections.all | getParents(currentItem.key) %}
+	{%- for entry in collections.all | eleventyNavigation("Information") %}
+		<li class="nav-item"><a href="{{ entry.url }}"{% if (entry.url == page.url) or (parentsData | containsParent(entry.key)) %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+	{%- endfor %}
+	</ul>
+</nav>

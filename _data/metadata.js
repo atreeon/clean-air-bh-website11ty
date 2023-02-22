@@ -1,5 +1,5 @@
 module.exports = {
-	"title": "Clean Air for Brighton & Hove",
+	"title": "Clean Air for Brighton & Hove - cleanairbh.com",
 	"url": "https://CleanAirBH.com/",
 	"language": "en",
 	"description": "This is the website for the group Clean Air for Brighton & Hove.  " +
