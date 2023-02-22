@@ -1,7 +1,8 @@
 ---
-title: Is it Time for Incentives to Help Clean Up Our City's Taxis?
+title: Is it Time for Clean Air Taxi Incentives?
 date: 2023-02-22
-draft: true
+draft: false
+author: adrian
 ---
 
 23% of all the taxis in our city are of the age, manufacturer and fuel type (diesel) associated with the VW emissions scandal.

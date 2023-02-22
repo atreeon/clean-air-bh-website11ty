@@ -2,6 +2,7 @@
 title: SCA Extension - Question Posed at ETS meeting on 17th of January 2023
 date: 2023-01-17
 draft: false
+author: adrian
 ---
 
 On this latest ETS meeting I asked again about an extended Smoke Control Area.

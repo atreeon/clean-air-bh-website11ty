@@ -3,6 +3,8 @@ build
 node_modules
 web_modules
 
+_site
+
 # Logs
 logs
 *.log

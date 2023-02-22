@@ -2,9 +2,12 @@
 {% for post in postslist | reverse %}
 	<li>
 		<a href="{{ post.url }}">
+			{% set myAuthor = authors | getAuthor(post.data.author) %}
 			{{ post.data.title }}
 		</a>
+		by {{ myAuthor.name }}
 		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
 	</li>
+	<br />
 {% endfor %}
 </ol>

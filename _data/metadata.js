@@ -7,9 +7,4 @@ module.exports = {
 		"We meet, share resources and discuss Brighton & Hove's air quality.",
 	"email": "cleanairbh@gmail.com",
 	"twitterUrl": "https://www.twitter.com/cleanairbh",
-	"author": {
-		"name": "Adrian Hill",
-		"email": "cleanairbh@gmail.com",
-		"url": "https://example.com/about-me/"
-	}
 }

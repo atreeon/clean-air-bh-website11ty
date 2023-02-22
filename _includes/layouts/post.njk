@@ -3,6 +3,14 @@ layout: layouts/topLevel.njk
 ---
 <h1>{{ title }}</h1>
 
+{% if author %}
+	{% set myAuthor = authors | getAuthor(author) %}
+
+	<p>
+	Written by {{ myAuthor.name }}</a>
+	</p>
+{% endif %}
+
 <ul class="post-metadata">
 	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
 	{%- for tag in tags | filterTagList %}

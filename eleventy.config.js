@@ -307,6 +307,11 @@ module.exports = function (eleventyConfig) {
 			return "!!!" + key + " navigation entry not found!!!";
 		});
 
+	eleventyConfig.addFilter("getAuthor", (authors,label) => {
+		let author = authors.filter(a => a.key === label)[0];
+		return author;
+	});
+
 	eleventyConfig.addFilter("getListOfNavigations", function (collections, key) {
 		return collections.filter(function (item) {
 			if (item.data && item.data.eleventyNavigation) {
