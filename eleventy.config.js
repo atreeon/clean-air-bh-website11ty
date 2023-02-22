@@ -133,7 +133,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("CNAME");
 
 	eleventyConfig.addPassthroughCopy("src/img");
-
+//delete comment
 	// eleventyConfig.addPassthroughCopy("assets", {
 	// return {
 	// 	dir: {
