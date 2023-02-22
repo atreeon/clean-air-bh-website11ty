@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>Clean Air for Brighton &amp; Hove - cleanairbh.com</title>
+	<subtitle>This is the website for the group Clean Air for Brighton &amp; Hove.  We campaign for better air quality in the city. We meet, share resources and discuss Brighton &amp; Hove&#39;s air quality.</subtitle>
+	<link href="https://cleanairbh.com/feed/feed.xml" rel="self"/>
+	<link href="https://cleanairbh.com/"/>
+	<updated>2023-01-17T00:00:00Z</updated>
+	<id>https://CleanAirBH.com/</id>
+	<author>
+		<name>Adrian Hill</name>
+		<email>cleanairbh@gmail.com</email>
+	</author>
+	
+	<entry>
+		<title>SCA Extension - Question Posed at ETS meeting on 17th of January 2023</title>
+		<link href="https://cleanairbh.com/blog/scaExtension/"/>
+		<updated>2023-01-17T00:00:00Z</updated>
+		<id>https://cleanairbh.com/blog/scaExtension/</id>
+		<content type="html">&lt;p&gt;On this latest ETS meeting I asked again about an extended Smoke Control Area.
+A Labour Group amendment, backed by the Conservative party, voted to delay (or possibly prevent) an extended SCA.
+What is the impact of this?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;14% of the city suffer asthma.&lt;/p&gt;
+&lt;p&gt;Between 1/3 and half of all childhood asthma is caused by poor air quality (Bradford &amp;amp; Barcelona studies).  Air pollution also causes heart disease, COPD, lung cancer, low birth weight, premature birth, dementia, organ damage and developmental problems.&lt;/p&gt;
+&lt;p&gt;38% of particulate emissions (UK) are from solid fuel burning (DEFRA)&lt;/p&gt;
+&lt;p&gt;Particulate pollution increased in Preston Park the last three years (AQASR).&lt;/p&gt;
+&lt;p&gt;A Labour Group amendment was submitted to the recent AQAP delaying a SCA extension and denying residents protection against the worst solid fuel pollution offences; will research into SCA extension be made a priority?&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
+</feed>
