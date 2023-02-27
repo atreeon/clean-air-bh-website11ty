@@ -7,7 +7,7 @@ eleventyNavigation:
 
 We usually meet at 8pm on the second Tuesday of every other month, a week before each Brighton & Hove ETS council meeting (check the dates first though, sometimes we meet a bit earlier or later)
 
-- Tuesday 28th Feb 2023
+- Wednesday, 26th Feb 2023 (at the Bevy Pub, speaker at 6pm)
 - Tuesday 13th June 2023
 - Tuesday 12th September 2023
 - Tuesday 14th November 2023
