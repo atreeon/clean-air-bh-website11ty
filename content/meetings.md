@@ -5,16 +5,14 @@ eleventyNavigation:
   order: 4
 ---
 
-We usually meet at 8pm on the second Tuesday of every other month, a week before each Brighton & Hove ETS council meeting (check the dates first though, sometimes we meet a bit earlier or later)
+We try to meet online a week or so before each Brighton & Hove ETS council meeting (check the dates first though, sometimes we meet a bit earlier or later).
 
-- Wednesday, 26th Feb 2023 (at the Bevy Pub, speaker at 6pm)
-- Tuesday 13th June 2023
-- Tuesday 12th September 2023
-- Tuesday 14th November 2023
+- Wednesday, 26th Feb 2023 (CANCELLED)
+- Monday 12th June 2023 (https://www.eventbrite.co.uk/e/clean-air-for-brighton-hove-meeting-tickets-568139890707)
+- Monday 11th September 2023 (https://www.eventbrite.co.uk/e/clean-air-for-brighton-hove-meeting-tickets-568147844497)
+- Monday 13th November 2023 (https://www.eventbrite.co.uk/e/copy-of-clean-air-for-brighton-hove-meeting-tickets-568148957827)
 
-We meet at Presuming Ed's Coffee House at 114-115 London Road.
-
-If you are new please register using {% externalLink "https://www.eventbrite.co.uk/o/adrian-hill-32145869891", "EventBrite.com" %}
+If you are new please register using above or {% externalLink "https://www.eventbrite.co.uk/o/adrian-hill-32145869891", "EventBrite.com" %}
 
 
 
