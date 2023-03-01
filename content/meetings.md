@@ -12,9 +12,9 @@ We try to meet online a week or so before each Brighton & Hove ETS council meeti
 - Monday 20th March - flyering event - meet outside Bevy pub in Bevendean at 7pm
 - Monday 27th March - flyering event - 7pm, location tbc
 - Monday 3rd April - flyering event - 7pm, location tbc
-- Monday 12th June 2023 (https://www.eventbrite.co.uk/e/clean-air-for-brighton-hove-meeting-tickets-568139890707)
-- Monday 11th September 2023 (https://www.eventbrite.co.uk/e/clean-air-for-brighton-hove-meeting-tickets-568147844497)
-- Monday 13th November 2023 (https://www.eventbrite.co.uk/e/copy-of-clean-air-for-brighton-hove-meeting-tickets-568148957827)
+- Monday 12th June 2023 (<a href="https://www.eventbrite.co.uk/e/clean-air-for-brighton-hove-meeting-tickets-568139890707" target="_blank">event brite registration</a>)
+- Monday 11th September 2023 (<a href="https://www.eventbrite.co.uk/e/clean-air-for-brighton-hove-meeting-tickets-568147844497" target="_blank">event brite registration</a>)
+- Monday 13th November 2023 (<a href="https://www.eventbrite.co.uk/e/copy-of-clean-air-for-brighton-hove-meeting-tickets-568148957827" target="_blank">event brite registration</a>)
 
 If you are new please register using above or {% externalLink "https://www.eventbrite.co.uk/o/adrian-hill-32145869891", "EventBrite.com" %}
 
