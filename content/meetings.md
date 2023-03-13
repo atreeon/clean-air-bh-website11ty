@@ -7,7 +7,6 @@ eleventyNavigation:
 
 We try to meet online a week or so before each Brighton & Hove ETS council meeting (check the dates first though, sometimes we meet a bit earlier or later).
 
-- Wednesday, 26th Feb 2023 (CANCELLED)
 - Monday 13th March 2023 - flyering event - meet outside Hove Town Hall at 7pm
 - Monday 20th March - flyering event - meet outside Bevy pub in Bevendean at 7pm
 - Monday 27th March - flyering event - 7pm, location tbc
