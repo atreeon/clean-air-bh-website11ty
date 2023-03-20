@@ -16,6 +16,12 @@
 
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
+
+		{% block script %}
+        {% if script %}
+            <script src="/javascript/{{ script }}"></script>
+        {% endif %}
+    {% endblock %}
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
