@@ -7,15 +7,12 @@ eleventyNavigation:
 
 We try to meet online a week or so before each Brighton & Hove ETS council meeting (check the dates first though, sometimes we meet a bit earlier or later).
 
-- Monday 13th March 2023 - flyering event - meet outside Hove Town Hall at 7pm
-- Monday 20th March - flyering event - meet outside Bevy pub in Bevendean at 7pm
-- Monday 27th March - flyering event - 7pm, location tbc
-- Monday 3rd April - flyering event - 7pm, location tbc
-- Monday 12th June 2023 (<a href="https://www.eventbrite.co.uk/e/clean-air-for-brighton-hove-meeting-tickets-568139890707" target="_blank">event brite registration</a>)
-- Monday 11th September 2023 (<a href="https://www.eventbrite.co.uk/e/clean-air-for-brighton-hove-meeting-tickets-568147844497" target="_blank">event brite registration</a>)
-- Monday 13th November 2023 (<a href="https://www.eventbrite.co.uk/e/copy-of-clean-air-for-brighton-hove-meeting-tickets-568148957827" target="_blank">event brite registration</a>)
+Add calendar to your own calendar by clicking on this link.
+<a href="https://calendar.google.com/calendar/u/0?cid=MmY3MTg2MTM3MTE3NWQyYTQxNjE3OTA4NTU1YWY0MjQ1MTQwNmRlNmM0NTY0NzUzOTk4MjYyYmJhOGVjYjg0N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">add all items to you calendar</a>
 
-If you are new please register using above or {% externalLink "https://www.eventbrite.co.uk/o/adrian-hill-32145869891", "EventBrite.com" %}
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FLondon&showTabs=1&showTitle=0&showTz=0&mode=AGENDA&hl=en_GB&src=MmY3MTg2MTM3MTE3NWQyYTQxNjE3OTA4NTU1YWY0MjQ1MTQwNmRlNmM0NTY0NzUzOTk4MjYyYmJhOGVjYjg0N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%233F51B5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+If you are new please register using the links in the details section of the google calendar events or {% externalLink "https://www.eventbrite.co.uk/o/adrian-hill-32145869891", "EventBrite.com" %}
 
 
 
