@@ -109,16 +109,15 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addShortcode(
 		'registerForUpdates',
 		() => {
-			return '' +
-				'<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>\n' +
-				'<script>\n' +
-				'  hbspt.forms.create({\n' +
-				'    region: "eu1",\n' +
-				'    portalId: "26983154",\n' +
-				'    formId: "3834414a-a78e-4236-80fd-ee7d90d68e94"\n' +
-				'  });\n' +
-				'\n' +
-				'</script>';
+			return `
+				<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+				<script>
+				  hbspt.forms.create({
+				    region: "eu1",
+				    portalId: "26983154",
+				    formId: "3834414a-a78e-4236-80fd-ee7d90d68e94"
+				  });
+				</script>`;
 		}
 	);
 
