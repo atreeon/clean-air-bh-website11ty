@@ -1,7 +1,7 @@
 ---
 layout: layouts/campaigns.njk
 eleventyNavigation:
-  key: Achieve Targets
+  key: Targets
   parent: Campaigns
   order: 4
 ---

@@ -1,7 +1,7 @@
 ---
 layout: layouts/campaigns.njk
 eleventyNavigation:
-  key: Electrify Transport
+  key: Transport
   parent: Campaigns
   order: 2
 ---

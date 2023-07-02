@@ -1,7 +1,7 @@
 ---
 layout: layouts/campaigns.njk
 eleventyNavigation:
-  key: Air Quality Monitoring
+  key: Monitoring
   parent: Campaigns
   order: 5
 ---

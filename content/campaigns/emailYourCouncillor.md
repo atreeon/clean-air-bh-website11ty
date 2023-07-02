@@ -1,7 +1,7 @@
 ---
 layout: layouts/campaigns.njk
 eleventyNavigation:
-  key: Email Your Councillor
+  key: Your Councillor
   parent: Campaigns
   order: 0
 script: generateEmail.js

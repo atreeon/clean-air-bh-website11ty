@@ -1,7 +1,7 @@
 ---
 layout: layouts/campaigns.njk
 eleventyNavigation:
-  key: Regulate Burning
+  key: Burning
   parent: Campaigns
   order: 1
 ---

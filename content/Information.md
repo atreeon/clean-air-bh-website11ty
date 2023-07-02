@@ -5,16 +5,9 @@ eleventyNavigation:
   order: 6
 ---
 
-### Useful information.
+{{ collections.all | eleventyNavigation("Information") | eleventyNavigationToMarkdown | safe }}
 
-<nav>
-	<h2 class="visually-hidden">Top level navigation menu</h2>
-	<ul class="nav">
 
-	{% set currentItem = collections.all | getCurrentItem(page.url) %}
-	{% set parentsData = collections.all | getParents(currentItem.key) %}
-	{%- for entry in collections.all | eleventyNavigation("Information") %}
-		<li class="nav-item"><a href="{{ entry.url }}"{% if (entry.url == page.url) or (parentsData | containsParent(entry.key)) %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-	{%- endfor %}
-	</ul>
-</nav>
+
+
+
