@@ -1,37 +1,69 @@
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family: futura-pt-bold, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
 :root {
-	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+	/*--color-text: #4c9f70;*/
+	/*--color-contrast: #496f5d;*/
+	/*--color-3: #49516f;*/
+	/*--color-4: #6279b8;*/
+	/*--color-5: #8ea4d2;*/
 
-	--background-color: #fff;
+	--color-text: #034732;
+	--color-contrast: #ef2917;
+	--color-subtle: #ef8a17;
+	--color-4: #8ea4d2;
+	--color-5: #8ea4d2;
+	--color-white: #fff;
 
-	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+
+	/*--color-text: #6279b8;*/
+	/*--color-contrast: #4c9f70;*/
+	/*--color-3: #8ea4d2;*/
+	/*--color-4: #49516f;*/
+	/*--color-5: #496f5d;*/
+
+	/*--color-text: #731dd8;*/
+	/*--color-contrast: #48a9a6;*/
+	/*--color-3: #e4dfda;*/
+	/*--color-4: #d4b483;*/
+	/*--color-5: #c1666b;*/
+
+	/*--color-1: #00B9AE;*/
+	/*--color-2: #037171;*/
+	/*--color-3: #03312e;*/
+	/*--color-4: #02c3bd;*/
+	/*--color-5: #009f93;*/
+
+	/*--color-gray-20: #e0e0e0;*/
+	/*--color-gray-50: #C0C0C0;*/
+	/*--color-gray-90: #333;*/
+
+	/*--background-color: #fff;*/
+
+	/*--text-color: var(--color-gray-90);*/
+	/*--text-color-link: #082840;*/
+	/*--text-color-link-active: #5f2b48;*/
+	/*--text-color-link-visited: #17050F;*/
 
 	--syntax-tab-size: 2;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
+		/*--color-gray-20: #e0e0e0;*/
+		/*--color-gray-50: #C0C0C0;*/
+		/*--color-gray-90: #dad8d8;*/
 
-		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		/*!* --text-color is assigned to --color-gray-_ above *!*/
+		/*--text-color-link: #1493fb;*/
+		/*--text-color-link-active: #6969f7;*/
+		/*--text-color-link-visited: #a6a6f8;*/
 
-		--background-color: #15202b;
+		/*--background-color: #15202b;*/
 	}
 }
 
@@ -46,14 +78,15 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	font-family: var(--font-family);
-	color: var(--text-color);
-	background-color: var(--background-color);
+	color: var(--color-text);
+	/*background-color: var(--background-color);*/
 }
+
 html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	/*max-width: 40em;*/
 }
 
 .social-links {
@@ -92,15 +125,14 @@ li {
 	line-height: 1.5;
 }
 
-a[href] {
-	color: var(--text-color-link);
-}
+a[href],
 a[href]:visited {
-	color: var(--text-color-link-visited);
+	color: var(--color-text);
 }
+
 a[href]:hover,
 a[href]:active {
-	color: var(--text-color-link-active);
+	color: var(--color-5);
 }
 
 main {
@@ -111,7 +143,7 @@ main :first-child {
 }
 
 header {
-	border-bottom: 1px dashed var(--color-gray-20);
+	border-bottom: 1px dashed var(--color-text);
 }
 header:after {
 	content: "";
@@ -121,7 +153,7 @@ header:after {
 
 .links-nextprev {
 	list-style: none;
-	border-top: 1px dashed var(--color-gray-20);
+	border-top: 1px dashed var(--color-3);
 	padding: 1em 0;
 }
 
@@ -160,9 +192,57 @@ code {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.image-container {
+	overflow: hidden;
+	position: relative;
+}
+
+.image-container img {
+	width: 100%;
+	max-height: 400px; /* Adjust the maximum height as desired */
+	object-fit: cover;
+	object-position: center;
+}
+
+.overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.overlay-box {
+	background-color: rgba(255, 255, 255, 0.8); /* White background with opacity */
+	padding-left: 20px;
+	padding-right: 20px;
+	/*padding-bottom: 0px;*/
+	/*margin: 10px; !* Adjust margin as needed *!*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.overlay-text {
+	/*color: var(--color-color); !* Adjust the text color as needed *!*/
+	font-size: 35px; /* Adjust the font size as needed */
+	/*margin-bottom: 10px;*/
+	white-space: nowrap; /* Prevent line breaks */
+	overflow-wrap: break-word; /* Allow word break if necessary */
+	margin: 0;
+}
+
+.secondary-title {
+	color: black; /* Adjust the text color as needed */
+	font-size: 24px; /* Adjust the font size as needed */
+	margin: 0;
 }
 
 /* Header */
@@ -181,6 +261,11 @@ header {
 .home-link:link:not(:hover) {
 	text-decoration: none;
 }
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
 
 /* Nav */
 .nav {
@@ -188,6 +273,7 @@ header {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	font-weight: 700;
 }
 .nav-item {
 	display: inline-block;
@@ -195,9 +281,11 @@ header {
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
+	color: var(--color-5);
 }
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
+	color: var(--color-5);
 }
 
 /* Posts list */
@@ -224,7 +312,7 @@ header {
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
+	color: var(--color-text);
 }
 .postlist-date {
 	word-spacing: -0.5px;
@@ -291,3 +379,49 @@ a[href].header-anchor:focus,
 h2 + .header-anchor {
 	font-size: 1.5em;
 }
+
+.rounded-button {
+	display: inline-block;
+	border-radius: 20px;
+	background-color: red;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.rounded-button a {
+	color: white;
+	text-decoration: none;
+}
+
+/*.register-box {*/
+/*	display: inline-block;*/
+/*	border-radius: 20px;*/
+/*	background-color: red;*/
+/*	color: white;*/
+/*	padding: 10px 20px;*/
+/*	text-decoration: none;*/
+/*}*/
+
+/*.button {*/
+/*	display: inline-block;*/
+/*	padding: 10px 20px;*/
+/*	background-color: red;*/
+/*	color: white;*/
+/*	text-decoration: none;*/
+/*	border: none;*/
+/*	cursor: pointer;*/
+/*}*/
+
+/*.register-box:hover,*/
+/*.register-box:focus {*/
+/*	!* Remove hover and focus styles *!*/
+/*	background-color: red;*/
+/*	color: white;*/
+/*	outline: none;*/
+/*	text-decoration: none;*/
+/*}*/
+
+/*main {*/
+/*	margin-top: 60px; !* Ensure the image appears below the menu bar *!*/
+/*	padding-bottom: 100px; !* Add space for the additional content *!*/
+/*}*/

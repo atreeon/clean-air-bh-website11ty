@@ -6,7 +6,7 @@ function generateEmail() {
 		var councillorEmail = getCouncillorEmail(selectedWard);
 
 		if (councillorEmail) {
-			var subject = "" + selectedWard;
+			var subject = "";
 			var body = "";
 
 			// Customize the email body as needed

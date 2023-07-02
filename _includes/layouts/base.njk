@@ -45,12 +45,15 @@
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+			<div class="home-link">{{ metadata.title }}</div>
 			<div class="social-links">
       <a href="https://www.cleanairbh.com/feed/feed.xml" target="_blank" rel="noopener" aria-label="RSS"><i class="fa fa-rss-square"></i></a>
       <a href="mailto:{{ metadata.email }}"><i class="fa fa-envelope-open"></i></a>
       <a href="{{ metadata.twitterUrl }}" target="_blank"><i class='fab fa-twitter'></i></a>
       </div>
+			<div class="rounded-button">
+				<a href="{% getLinkByKeySC collections.all, "Register" %}">Register</a>
+			</div>
 		</header>
 
 		<main id="skip">
