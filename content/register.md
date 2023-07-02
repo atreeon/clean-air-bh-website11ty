@@ -2,7 +2,7 @@
 layout: layouts/topLevel.njk
 eleventyNavigation:
   key: Register
-  order: 2
+  order: 10
 ---
 
 ## Register for the Newsletter

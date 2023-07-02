@@ -9,8 +9,8 @@ script: generateEmail.js
 
 # Email Your Councillor
 
-To email your councillors please select your ward from the dropdown menu below.
-You can then send an email to the councillors who represent you, in your own short words, to support clean air initiatives in Brighton & Hove.
+To email your councillors please select your ward from the dropdown menu below then select 'Compose Email'.<br />
+You can then send an email to the councillors who represent you and ask, in your own short words, to support clean air initiatives in Brighton & Hove.
 It is best to include a subject, some text and your name and address so that they know you are a constituent.
 
 <div class="dropdown">

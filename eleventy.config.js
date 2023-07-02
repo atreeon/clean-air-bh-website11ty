@@ -284,6 +284,32 @@ module.exports = function (eleventyConfig) {
 	)
 
 	eleventyConfig.addShortcode(
+		'getUrlLinkByKeySC',
+		(collections, key) => {
+			let findResult = collections.find(function (item) {
+				if (item.data &&
+					item.data.eleventyNavigation &&
+					item.data.eleventyNavigation.key &&
+					item.data.eleventyNavigation.key == key
+				) {
+					return true;
+				} else {
+					return false;
+				}
+			});
+
+			if (findResult != undefined) {
+				let nav = findResult.data.eleventyNavigation;
+				nav.title = nav.title || findResult.data.page.title || nav.key;
+				nav.url = nav.url || findResult.data.page.url;
+
+				return nav.url;
+			}
+
+			return "!!!" + key + " navigation entry not found!!!";
+		});
+
+	eleventyConfig.addShortcode(
 		'getLinkByKeySC',
 		(collections, key) => {
 			let findResult = collections.find(function (item) {

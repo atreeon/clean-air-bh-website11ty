@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="{{ metadata.language }}">
 	<head>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=manrope&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap">
 		<link rel="stylesheet" href="/css/index.css">
 		<link rel="stylesheet" href="/css/prism-diff.css">
 		<link rel="stylesheet" href="/css/prism-okaidia.css">
@@ -37,24 +39,11 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-VZELTZP95Y');
     </script>
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
-
-		<header>
-			<div class="home-link">{{ metadata.title }}</div>
-			<div class="social-links">
-      <a href="https://www.cleanairbh.com/feed/feed.xml" target="_blank" rel="noopener" aria-label="RSS"><i class="fa fa-rss-square"></i></a>
-      <a href="mailto:{{ metadata.email }}"><i class="fa fa-envelope-open"></i></a>
-      <a href="{{ metadata.twitterUrl }}" target="_blank"><i class='fab fa-twitter'></i></a>
-      </div>
-			<div class="rounded-button">
-				<a href="{% getLinkByKeySC collections.all, "Register" %}">Register</a>
-			</div>
-		</header>
 
 		<main id="skip">
 			{{ content | safe }}

@@ -1,14 +1,9 @@
 ---
 layout: layouts/home.njk
-eleventyNavigation:
-  key: Home
-  order: 1
 numberOfLatestPostsToShow: 3
 ---
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-
-<br />
 
 <div class="image-container">
   <img class="centerImage" src="{{ '/img/Royal_Pavillion_Brighton.jpg' | url }}" width="100%" />

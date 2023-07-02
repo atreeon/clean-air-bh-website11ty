@@ -4,13 +4,33 @@ layout: layouts/base.njk
 		<nav>
 			<h2 class="visually-hidden">Top level navigation menu</h2>
 			<ul class="nav">
-
+				<li>
+					<div class="homelink">
+						<a href="/">
+							<div class="homelink-cleanair">Clean Air</div>
+							<div class="homelink-brighton"><span class="homelink-for">for</span> Brighton & Hove</div>
+						</a>
+					</div>
+				</li>
 			{% set currentItem = collections.all | getCurrentItem(page.url) %}
 			{% set parentsData = collections.all | getParents(currentItem.key) %}
 			{%- for entry in collections.all | eleventyNavigation %}
-				<li class="nav-item"><a href="{{ entry.url }}"{% if (entry.url == page.url) or (parentsData | containsParent(entry.key)) %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+				<li class="nav-item {% if (entry.url == page.url) or (parentsData | containsParent(entry.key)) %}nav-item-selected{% endif %}">
+					<div class="key-{{ entry.title }} nav-item2">
+						<a href="{{ entry.url }}"{% if (entry.url == page.url) or (parentsData | containsParent(entry.key)) %} aria-current="page"{% endif %}>{{ entry.title }}
+						</a>
+					</div>
+				</li>
 			{%- endfor %}
+				<li>
+					<div class="social-links">
+						<a href="mailto:{{ metadata.email }}"><i class="fa fa-envelope-open"></i></a>
+						<a href="{{ metadata.twitterUrl }}" target="_blank"><i class='fab fa-twitter'></i></a>
+						<a href="https://www.cleanairbh.com/feed/feed.xml" target="_blank" rel="noopener" aria-label="RSS"><i class="fa fa-rss-square"></i></a>
+					</div>
+				</li>
 			</ul>
 		</nav>
+
 	{{ content | safe }}
 

@@ -1,6 +1,7 @@
 /* Defaults */
 :root {
-	--font-family: futura-pt-bold, system-ui, sans-serif;
+	--font-family: manrope, system-ui, sans-serif;
+	--font-family-italic: 'Roboto Condensed', system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
@@ -14,8 +15,8 @@
 
 	--color-text: #034732;
 	--color-contrast: #ef2917;
-	--color-subtle: #ef8a17;
-	--color-4: #8ea4d2;
+	--color-subtle: #057a56;
+	--color-light: #85fad6;
 	--color-5: #8ea4d2;
 	--color-white: #fff;
 
@@ -97,10 +98,11 @@ body {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	margin-top: 0.6em;
+	flex-direction: column;
 }
 
 .social-links a {
-	margin: 0 5px .5em;
+	/*margin: 0 5px .5em;*/
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -200,6 +202,8 @@ code {
 .image-container {
 	overflow: hidden;
 	position: relative;
+	margin-left: -20px;
+	margin-right: -20px;
 }
 
 .image-container img {
@@ -243,6 +247,7 @@ code {
 	color: black; /* Adjust the text color as needed */
 	font-size: 24px; /* Adjust the font size as needed */
 	margin: 0;
+	margin-bottom: 5px;
 }
 
 /* Header */
@@ -274,19 +279,74 @@ header {
 	margin: 0;
 	list-style: none;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 .nav-item {
+	/*margin-top: 5px;*/
+	/*margin-right: 0.05em;*/
+	/*margin-left: 0.05em;*/
 	display: inline-block;
-	margin-right: 1em;
+	/*padding-left: 2px;*/
+	/*padding-right: 2px;*/
+	padding-top: 30px;
+	/*background-color: var(--color-subtle);*/
+	/*max-height: 75px;*/
 }
+
+
+/*.nav-item2 {*/
+/*	margin-right: 0.5em;*/
+/*	margin-left: 0.5em;*/
+/*}*/
+
+.nav-item a[href] {
+	/*margin-top: 10px;*/
+	margin-right: 0.05em;
+	margin-left: 0.05em;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	background-color: var(--color-subtle);
+}
+
+
+
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
-	color: var(--color-5);
+	color: var(--color-white);
 }
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
-	color: var(--color-5);
+	color: var(--color-white);
 }
+
+.nav-item .key-Register a[href] {
+	background-color: var(--color-contrast);
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-item-selected a[href] {
+	background-color: var(--color-light);
+	color: var(--color-text);
+	max-height: 75px;
+}
+
+.nav-item-selected a[href],
+.nav-item-selected a[href]:hover,
+.nav-item-selected a[href]:active,
+.nav-item-selected a[href]:visited {
+	color: var(--color-text);
+}
+
+/*.nav-item a[href],*/
+/*.nav-item a[href]:visited,*/
+/*.nav-item a[href]:hover,*/
+/*.nav-item a[href]:active {*/
+/*	color: var(--color-5);*/
+/*}*/
+
 
 /* Posts list */
 .postlist {
@@ -380,16 +440,81 @@ h2 + .header-anchor {
 	font-size: 1.5em;
 }
 
-.rounded-button {
+img.logo {
+	width: 75px;
+	height: auto;
+	margin-right: 5px;
+}
+
+/*li.nav-item > .key-Register {*/
+/*	margin-top: -30px;*/
+/*	margin-bottom: 30px;*/
+/*}*/
+
+/*.key-Register {*/
+/*	display: inline-block;*/
+/*	!*border-radius: 20px;*!*/
+/*	background-color: red;*/
+/*	padding: 10px 20px;*/
+/*	text-decoration: none;*/
+/*}*/
+
+/*.key-Register a {*/
+/*	color: white;*/
+/*	text-decoration: none;*/
+/*}*/
+
+/*.key-Register a[href]:visited,*/
+/*.key-Register a[href]:active,*/
+/*.key-Register a[href]:hover,*/
+/*.key-Register a[href]:focus {*/
+/*	!* Remove hover and focus styles *!*/
+/*	background-color: red;*/
+/*	color: white;*/
+/*	outline: none;*/
+/*	text-decoration: none;*/
+/*}*/
+
+.homelink {
 	display: inline-block;
-	border-radius: 20px;
-	background-color: red;
+	border-radius: 6px;
+	text-align: center;
+	background-color: var(--color-text);
 	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 1.8em;
+	letter-spacing: 0.1em;
+	margin-right: 10px;
+	white-space: nowrap;
+}
+
+.homelink .homelink-for {
+	font-size: 0.6em;
+}
+
+.homelink .homelink-brighton {
+	font-size: 0.6em;
+	text-transform: none;
+	letter-spacing: 0.0em;
+	font-weight: 300;
+	font-family: var(--font-family-italic);
+	font-style: italic;
+	white-space: nowrap;
+}
+
+.homelink a {
+	color: white;
 	text-decoration: none;
 }
 
-.rounded-button a {
+.homelink a[href]:visited,
+.homelink a[href]:active,
+.homelink a[href]:hover,
+.homelink a[href]:focus {
+	/* Remove hover and focus styles */
+	/*background-color: var(--color-contrast);*/
 	color: white;
+	outline: none;
 	text-decoration: none;
 }
 

@@ -1,7 +1,7 @@
 ---
 layout: layouts/campaigns.njk
 eleventyNavigation:
-  key: Clean Air ActiveTravel Routes
+  key: Clean Air Travel Routes
   parent: Campaigns
   order: 6
 ---
