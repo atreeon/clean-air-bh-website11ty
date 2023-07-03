@@ -336,6 +336,7 @@ nav {
 	text-decoration: none;
 	color: var(--color-white);
 }
+
 .nav a[href][aria-current="page"] {
 	color: var(--color-white);
 }
@@ -351,10 +352,23 @@ nav {
 	color: var(--color-text);
 }
 
+
+
+.nav-item a[href],
+.nav-item a[href]:visited,
+.nav-item a[href]:active,
+.nav-item a[href]:hover,
+.nav-item a[href]:focus {
+	color: white;
+	outline: none;
+	text-decoration: none;
+}
+
 .nav-item-selected a[href],
 .nav-item-selected a[href]:hover,
 .nav-item-selected a[href]:active,
-.nav-item-selected a[href]:visited {
+.nav-item-selected a[href]:visited,
+.nav-item-selected a[href]:focus {
 	color: var(--color-text);
 }
 
@@ -454,6 +468,27 @@ img.logo {
 	width: 75px;
 	height: auto;
 	margin-right: 5px;
+}
+
+.register-banner a {
+	display: inline-block;
+	font-size: var(--homelink-large-font);
+	width:100%;
+	color: var(--color-white);
+	background-color: var(--color-contrast);
+	font-family: var(--font-family-italic);
+	display: var(--inline-block);
+	justify-content: center;
+}
+
+.register-banner a[href],
+.register-banner a[href]:visited,
+.register-banner a[href]:active,
+.register-banner a[href]:hover,
+.register-banner a[href]:focus {
+	color: white;
+	outline: none;
+	text-decoration: none;
 }
 
 .homelink {

@@ -17,10 +17,11 @@ numberOfLatestPostsToShow: 3
   </div>
 </div>
 
-<br />
-
-Please register for alerts using the {% getLinkByKeySC collections.all, "Register" %} link to subscribe to future
-news and information.
+<div class="register-banner">
+	<a href="{% getUrlLinkByKeySC collections.all, "Register" %}">
+		Register for the Newsletter
+	</a>
+</div>
 
 <h1>Latest Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
 
