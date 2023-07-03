@@ -4,6 +4,10 @@ date: 2023-02-22
 draft: false
 author: adrian
 id: Taxi_2023-02-22
+eleventyNavigation:
+  key: Blog Taxi Incentives
+  parent: Posts
+  order: 6
 ---
 
 23% of all the taxis in our city are of the age, manufacturer and fuel type (diesel) associated with the VW emissions scandal.

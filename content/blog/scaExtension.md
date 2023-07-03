@@ -4,6 +4,10 @@ date: 2023-01-17
 draft: false
 author: adrian
 id: SCA_2023-01-17
+eleventyNavigation:
+  key: Blog SCA Extension
+  parent: Posts
+  order: 6
 ---
 
 On this latest ETS meeting I asked again about an extended Smoke Control Area.

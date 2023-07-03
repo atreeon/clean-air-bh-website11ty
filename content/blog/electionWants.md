@@ -4,6 +4,10 @@ date: 2023-04-24
 draft: false
 author: adrian
 id: SCA_2023-04-24
+eleventyNavigation:
+  key: Blog Interventions
+  parent: Posts
+  order: 6
 ---
 
 My need to campaign for clean air began when I accepted the evidence that my asthma is made worse and even caused by the poor air quality I have been exposed to.  The medical evidence for this link is well documented by organisations such as the World Health Organisation, British Medial Association and Public Health England.

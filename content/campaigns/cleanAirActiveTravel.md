@@ -3,7 +3,7 @@ layout: layouts/campaigns.njk
 eleventyNavigation:
   key: Active Travel
   parent: Campaigns
-  order: 6
+  order: 8
 ---
 
 # Provide clean air routes for walking and cycling
