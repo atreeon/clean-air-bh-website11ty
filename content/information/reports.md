@@ -4,6 +4,7 @@ eleventyNavigation:
   key: Reports
   parent: Information
   order: 2
+  longTitle: Reports on Air Quality in Brighton and Hove
 ---
 
 <a href="https://www.brighton-hove.gov.uk/environment/noise-pollution-and-air-quality/air-quality-annual-status-reports" target="_blank">council annual reports</a>
