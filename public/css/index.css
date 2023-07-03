@@ -3,8 +3,9 @@
 	--font-family: manrope, system-ui, sans-serif;
 	--font-family-italic: 'Roboto Condensed', system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
-	--homelink-small-font: 0.8em;
-	--homelink-large-font: 1.8em;
+	--small-font: 0.8em;
+	--medium-font: 1.2em;
+	--large-font: 1.8em;
 	--homelink-padding: 10px 20px;
 	--overlay-box: 2.2em;
 	--overlay-box-sub: 1.8em;
@@ -34,8 +35,9 @@
 
 @media screen and (max-width: 768px) {
 	:root {
-		--homelink-small-font: 0.6em;
-		--homelink-large-font: 1.2em;
+		--small-font: 0.6em;
+		--medium-font: 0.9em;
+		--large-font: 1.2em;
 		--homelink-padding: 5px 5px;
 		--overlay-box: 1.4em;
 		--overlay-box-sub: 1.0em;
@@ -473,7 +475,7 @@ img.logo {
 }
 
 .banner-link a {
-	font-size: var(--homelink-large-font);
+	font-size: var(--large-font);
 	width: 100%;
 	color: var(--color-white);
 	background-color: var(--color-contrast);
@@ -497,6 +499,25 @@ img.logo {
 	margin-bottom: 20px;
 }
 
+.our-vision {
+	background-color: var(--color-text);
+	color: var(--color-white);
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1.2em;
+	font-size: var(--medium-font);
+}
+
+.our-vision h1 {
+	font-size: var(--large-font);
+}
+
+.our-vision img {
+	width: 100%;
+}
+
+
 .homelink {
 	display: inline-block;
 	border-radius: 6px;
@@ -504,7 +525,7 @@ img.logo {
 	background-color: var(--color-text);
 	padding: var(--homelink-padding);
 	text-decoration: none;
-	font-size: var(--homelink-large-font);
+	font-size: var(--large-font);
 	letter-spacing: 0.1em;
 	margin-right: 10px;
 	white-space: nowrap;
@@ -515,7 +536,7 @@ img.logo {
 }
 
 .homelink .homelink-brighton {
-	font-size: var(--homelink-small-font);
+	font-size: var(--small-font);
 	text-transform: none;
 	letter-spacing: 0.0em;
 	font-weight: 300;

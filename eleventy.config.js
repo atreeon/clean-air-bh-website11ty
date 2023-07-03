@@ -1,6 +1,7 @@
 const {DateTime} = require("luxon");
 const markdownItAnchor = require("markdown-it-anchor");
 
+const nunjucks = require("nunjucks");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginBundle = require("@11ty/eleventy-plugin-bundle");
@@ -189,6 +190,11 @@ module.exports = function (eleventyConfig) {
 				}
 			});
 		});
+
+	eleventyConfig.addFilter("render", (content) => {
+		const env = new nunjucks.Environment();
+		return nunjucks.renderString(content, env.getTemplate.bind(env));
+	});
 
 	eleventyConfig.addFilter("getItemByKey", function (collections, key) {
 		return getItemByKey(collections, key);
