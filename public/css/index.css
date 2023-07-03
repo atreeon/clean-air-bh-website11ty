@@ -5,20 +5,16 @@
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 	--homelink-small-font: 0.8em;
 	--homelink-large-font: 1.8em;
+	--homelink-padding: 10px 20px;
 	--overlay-box: 2.2em;
 	--overlay-box-sub: 1.8em;
-	--homelink-padding: 10px 20px;
 	--inline-block: flex;
+	--nav-item-top-padding: 35px;
+	--nav-item-font-size: 16px;
 }
 
 /* Theme colors */
 :root {
-	/*--color-text: #4c9f70;*/
-	/*--color-contrast: #496f5d;*/
-	/*--color-3: #49516f;*/
-	/*--color-4: #6279b8;*/
-	/*--color-5: #8ea4d2;*/
-
 	--color-text: #034732;
 	--color-contrast: #ef2917;
 	--color-subtle: #057a56;
@@ -26,62 +22,25 @@
 	--color-5: #8ea4d2;
 	--color-white: #fff;
 
-
-	/*--color-text: #6279b8;*/
-	/*--color-contrast: #4c9f70;*/
-	/*--color-3: #8ea4d2;*/
-	/*--color-4: #49516f;*/
-	/*--color-5: #496f5d;*/
-
-	/*--color-text: #731dd8;*/
-	/*--color-contrast: #48a9a6;*/
-	/*--color-3: #e4dfda;*/
-	/*--color-4: #d4b483;*/
-	/*--color-5: #c1666b;*/
-
-	/*--color-1: #00B9AE;*/
-	/*--color-2: #037171;*/
-	/*--color-3: #03312e;*/
-	/*--color-4: #02c3bd;*/
-	/*--color-5: #009f93;*/
-
-	/*--color-gray-20: #e0e0e0;*/
-	/*--color-gray-50: #C0C0C0;*/
-	/*--color-gray-90: #333;*/
-
-	/*--background-color: #fff;*/
-
-	/*--text-color: var(--color-gray-90);*/
-	/*--text-color-link: #082840;*/
-	/*--text-color-link-active: #5f2b48;*/
-	/*--text-color-link-visited: #17050F;*/
-
 	--syntax-tab-size: 2;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		/*--color-gray-20: #e0e0e0;*/
-		/*--color-gray-50: #C0C0C0;*/
-		/*--color-gray-90: #dad8d8;*/
 
-		/*!* --text-color is assigned to --color-gray-_ above *!*/
-		/*--text-color-link: #1493fb;*/
-		/*--text-color-link-active: #6969f7;*/
-		/*--text-color-link-visited: #a6a6f8;*/
-
-		/*--background-color: #15202b;*/
 	}
 }
 
 @media screen and (max-width: 768px) {
 	:root {
-		--homelink-small-font: 0.4em;
+		--homelink-small-font: 0.6em;
 		--homelink-large-font: 1.2em;
-		--homelink-padding: 0px 5px;
+		--homelink-padding: 5px 5px;
 		--overlay-box: 1.4em;
 		--overlay-box-sub: 1.0em;
 		--inline-block: inline-block;
+		--nav-item-font-size: 12px;
+		--nav-item-top-padding: 15px;
 	}
 }
 
@@ -102,6 +61,7 @@ body {
 html {
 	overflow-y: scroll;
 }
+
 body {
 	/*max-width: 40em;*/
 }
@@ -135,6 +95,7 @@ body {
 p:last-child {
 	margin-bottom: 0;
 }
+
 p {
 	line-height: 1.5;
 }
@@ -156,6 +117,7 @@ a[href]:active {
 main {
 	padding: 1rem;
 }
+
 main :first-child {
 	margin-top: 0;
 }
@@ -163,6 +125,7 @@ main :first-child {
 header {
 	border-bottom: 1px dashed var(--color-text);
 }
+
 header:after {
 	content: "";
 	display: table;
@@ -178,6 +141,7 @@ header:after {
 table {
 	margin: 1em 0;
 }
+
 table td,
 table th {
 	padding-right: 1em;
@@ -187,6 +151,7 @@ pre,
 code {
 	font-family: var(--font-family-monospace);
 }
+
 pre:not([class*="language-"]) {
 	margin: .5em 0;
 	line-height: 1.375; /* 22px /16 */
@@ -202,6 +167,7 @@ pre:not([class*="language-"]) {
 	word-spacing: normal;
 	word-break: normal;
 }
+
 code {
 	word-break: break-all;
 }
@@ -274,14 +240,17 @@ header {
 	align-items: center;
 	padding: 1em;
 }
+
 .home-link {
 	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
 	margin-right: 2em;
 }
+
 .home-link:link:not(:hover) {
 	text-decoration: none;
 }
+
 .home-link {
 	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
@@ -312,9 +281,12 @@ nav {
 
 .nav-item {
 	display: inline-block;
-	padding-top: 30px;
+	/*padding-top: 30px;*/
 }
 
+.nav-firstrow .nav-item-spacer:nth-child(1) {
+	padding-top: var(--nav-item-top-padding);
+}
 
 .nav-item a[href] {
 	white-space: nowrap;
@@ -325,6 +297,11 @@ nav {
 	background-color: var(--color-subtle);
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-size: var(--nav-item-font-size);
+}
+
+ul.nav-secondrow {
+	padding:20px;
 }
 
 .nav-item.nav-secondrow a[href] {
@@ -347,12 +324,20 @@ nav {
 	margin-right: 10px;
 }
 
+.nav-item .key-Register a[href],
+.nav-item .key-Register a[href]:visited,
+.nav-item .key-Register a[href]:active,
+.nav-item .key-Register a[href]:hover,
+.nav-item .key-Register a[href]:focus {
+	color: white;
+	outline: none;
+	text-decoration: none;
+}
+
 .nav-item-selected a[href] {
 	background-color: var(--color-light);
 	color: var(--color-text);
 }
-
-
 
 .nav-item a[href],
 .nav-item a[href]:visited,
@@ -378,6 +363,7 @@ nav {
 	padding: 0;
 	padding-left: 1.5rem;
 }
+
 .postlist-item {
 	display: flex;
 	flex-wrap: wrap;
@@ -385,6 +371,7 @@ nav {
 	counter-increment: start-from -1;
 	margin-bottom: 1em;
 }
+
 .postlist-item:before {
 	display: inline-block;
 	pointer-events: none;
@@ -393,14 +380,17 @@ nav {
 	text-align: right;
 	margin-left: -1.5rem;
 }
+
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
 	color: var(--color-text);
 }
+
 .postlist-date {
 	word-spacing: -0.5px;
 }
+
 .postlist-link {
 	font-size: 1.1875em; /* 19px /16 */
 	font-weight: 700;
@@ -411,6 +401,7 @@ nav {
 	text-underline-offset: 0;
 	text-decoration-thickness: 1px;
 }
+
 .postlist-item-active .postlist-link {
 	font-weight: bold;
 }
@@ -423,6 +414,7 @@ nav {
 	text-transform: capitalize;
 	font-style: italic;
 }
+
 .postlist-item > .post-tag {
 	align-self: center;
 }
@@ -436,6 +428,7 @@ nav {
 	padding: 0;
 	margin: 0;
 }
+
 .post-metadata time {
 	margin-right: 1em;
 }
@@ -447,14 +440,17 @@ nav {
 	font-size: 1em;
 	margin-left: .1em;
 }
+
 a[href].header-anchor,
 a[href].header-anchor:visited {
 	color: transparent;
 }
+
 a[href].header-anchor:focus,
 a[href].header-anchor:hover {
 	text-decoration: underline;
 }
+
 a[href].header-anchor:focus,
 :hover > a[href].header-anchor {
 	color: #aaa;
@@ -471,9 +467,8 @@ img.logo {
 }
 
 .register-banner a {
-	display: inline-block;
 	font-size: var(--homelink-large-font);
-	width:100%;
+	width: 100%;
 	color: var(--color-white);
 	background-color: var(--color-contrast);
 	font-family: var(--font-family-italic);
@@ -496,7 +491,7 @@ img.logo {
 	border-radius: 6px;
 	text-align: center;
 	background-color: var(--color-text);
-	padding: 10px 20px;
+	padding: var(--homelink-padding);
 	text-decoration: none;
 	font-size: var(--homelink-large-font);
 	letter-spacing: 0.1em;
