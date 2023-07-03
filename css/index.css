@@ -11,6 +11,7 @@
 	--inline-block: flex;
 	--nav-item-top-padding: 35px;
 	--nav-item-font-size: 16px;
+	--nav-secondrow-padding: 20px;
 }
 
 /* Theme colors */
@@ -41,6 +42,7 @@
 		--inline-block: inline-block;
 		--nav-item-font-size: 12px;
 		--nav-item-top-padding: 15px;
+		--nav-secondrow-padding: 1px;
 	}
 }
 
@@ -301,7 +303,11 @@ nav {
 }
 
 ul.nav-secondrow {
-	padding:20px;
+	padding-top: var(--nav-secondrow-padding);
+}
+
+ul.nav-thirdrow {
+	padding-top: 15px;
 }
 
 .nav-item.nav-secondrow a[href] {
@@ -466,7 +472,7 @@ img.logo {
 	margin-right: 5px;
 }
 
-.register-banner a {
+.banner-link a {
 	font-size: var(--homelink-large-font);
 	width: 100%;
 	color: var(--color-white);
@@ -476,14 +482,19 @@ img.logo {
 	justify-content: center;
 }
 
-.register-banner a[href],
-.register-banner a[href]:visited,
-.register-banner a[href]:active,
-.register-banner a[href]:hover,
-.register-banner a[href]:focus {
+.banner-link a[href],
+.banner-link a[href]:visited,
+.banner-link a[href]:active,
+.banner-link a[href]:hover,
+.banner-link a[href]:focus {
 	color: white;
 	outline: none;
 	text-decoration: none;
+}
+
+.banner-information a {
+	background-color: var(--color-text);
+	margin-bottom: 20px;
 }
 
 .homelink {
