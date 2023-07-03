@@ -275,13 +275,39 @@ module.exports = function (eleventyConfig) {
 	});
 
 
-
 	eleventyConfig.addShortcode(
 		'externalLink',
 		(url, text) => {
 			return "<a href='" + url + "' target='_blank'>" + text ?? url + "</a>";
 		}
 	)
+
+	eleventyConfig.addShortcode(
+		'getLongTitleLinkByKeySC',
+		(collections, key) => {
+			let findResult = collections.find(function (item) {
+				if (item.data &&
+					item.data.eleventyNavigation &&
+					item.data.eleventyNavigation.key &&
+					item.data.eleventyNavigation.key == key
+				) {
+					return true;
+				} else {
+					return false;
+				}
+			});
+
+			if (findResult != undefined) {
+				let nav = findResult.data.eleventyNavigation;
+				nav.title = nav.title || findResult.data.page.title || nav.key;
+				nav.url = nav.url || findResult.data.page.url;
+				nav.longTitle = nav.longTitle || findResult.data.page.longTitle;
+
+				return nav.longTitle;
+			}
+
+			return "!!!" + key + " navigation entry not found!!!";
+		})
 
 	eleventyConfig.addShortcode(
 		'getUrlLinkByKeySC',
@@ -335,7 +361,7 @@ module.exports = function (eleventyConfig) {
 			return "!!!" + key + " navigation entry not found!!!";
 		});
 
-	eleventyConfig.addFilter("getAuthor", (authors,label) => {
+	eleventyConfig.addFilter("getAuthor", (authors, label) => {
 		let author = authors.filter(a => a.key === label)[0];
 		return author;
 	});

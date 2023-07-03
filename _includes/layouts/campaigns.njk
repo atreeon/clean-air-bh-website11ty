@@ -16,4 +16,9 @@ layout: layouts/topLevel.njk
 			{%- endfor %}
 			</ul>
 		</nav>
-	{{ content | safe }}
+
+<br />
+
+<h1>{% getLongTitleLinkByKeySC collections.all, currentItem.key %}</h1>
+
+{{ content | safe }}

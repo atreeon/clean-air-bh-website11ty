@@ -3,6 +3,7 @@ layout: layouts/campaigns.njk
 eleventyNavigation:
   key: References
   parent: Campaigns
+  longTitle: Health and Air Quality Science References
   order: 9
 ---
 

@@ -5,15 +5,15 @@ eleventyNavigation:
   order: 4
 ---
 
-Please see the following campaigns and how you can help.
+<br />
 
-{{ collections.all | eleventyNavigation("Campaigns") | eleventyNavigationToMarkdown | safe }}
-
-
-You can help create and deliver flyers.  Write an article.  Create a campaign to raise awareness.
-If you'd like help just send me an email and we can help you get started.  Ask a question at council.
-Create a petition.  Send a letter to your councillor or mp.  Hold a meeting with politicians.
-
+{% for item in collections.all | eleventyNavigation("Campaigns") %}
+<div class="banner-link banner-information">
+	<a href="{% getUrlLinkByKeySC collections.all, 'Your Councillor' %}">
+{{ item.longTitle }}
+	</a>
+</div>
+{% endfor %}
 
 Our flyer summarises our priorities
 

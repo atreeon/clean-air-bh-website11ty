@@ -3,15 +3,18 @@ layout: layouts/campaigns.njk
 eleventyNavigation:
   key: Your Councillor
   parent: Campaigns
+  longTitle: Email Your Councillor
   order: 0
 script: generateEmail.js
 ---
 
-# Email Your Councillor
+Our councillors make decisions that either help or hinder our efforts to improve air quality.
 
-To email your councillors please select your ward from the dropdown menu below then select 'Compose Email'.<br />
-You can then send an email to the councillors who represent you and ask, in your own short words, to support clean air initiatives in Brighton & Hove.
-It is best to include a subject, some text and your name and address so that they know you are a constituent.
+Why not write to your councillors and ask them to support clean air initiatives?
+
+Use this form to find out who your councillors are and to email them.
+
+1. Select your ward
 
 <div class="dropdown">
 	<select id="wardDropdown">
@@ -39,8 +42,16 @@ It is best to include a subject, some text and your name and address so that the
 	</select>
 </div>
 
+2. Press the Compose Email button and write to your councillor
+
 <button onclick="generateEmail()">Compose Email</button>
 
 If you are unsure of your ward, you can find out here
 
 <a href="https://www.brighton-hove.gov.uk/council-and-democracy/councillor-ward-map" target="_blank">https://www.brighton-hove.gov.uk/council-and-democracy/councillor-ward-map</a>
+
+We have found the Labour councillors from the previous administration the least willing to engage with us on
+air quality issues so if you do have a Labour councillor please do write to them and tell them how important
+it is for our health to have clean air in our city.  We need to make sure that the new Labour administration
+takes air quality seriously (we have been trying to get a meeting the last two months but Labour seem to
+prioritise other issues).
