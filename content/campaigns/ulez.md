@@ -27,12 +27,15 @@ Southampton, and York have all announced ULEZs.  Brighton & Hove, with its high 
 both in terms of pollution and action.
 
 ### 'Existing' ULEZ
-Many councillors have cited and existing ULEZ in Brighton & Hove.  This is not true.  The current ULEZ is not yet active.
-It only comes into effect in 2024.  However, announcing a ULEZ is a good first step and actually helps to reduce air
-pollution because vehicles choice is influenced by the announcement.
+Some people refer to an 'existing' ULEZ in Brighton & Hove.  The 'existing' ULEZ is not yet active.
+It only comes into effect in 2024.  It also only applies to one short road and only applies to buses; taxis, private
+vehicles, vans and lorries can all still use the most polluting vehicles without any restriction.
 
-Surprisingly the 'existing' ULEZ only applies to buses. It does not apply to taxis, private hire vehicles, vans, lorries.
+Announcing a ULEZ early is a good first step and actually helps to reduce air
+pollution because vehicle choice is influenced by the announcement.
 
+However without a proper ULEZ in place, with a full range of vehicles restricted, covering the whole city,
+pollution will not be reduced sufficiently.  We need a full ULEZ.
 
 ## What You Can Do To Help
 
