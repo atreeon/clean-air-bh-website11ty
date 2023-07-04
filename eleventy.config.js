@@ -305,11 +305,14 @@ module.exports = function (eleventyConfig) {
 
 			if (findResult != undefined) {
 				let nav = findResult.data.eleventyNavigation;
-				nav.title = nav.title || findResult.data.page.title || nav.key;
-				nav.url = nav.url || findResult.data.page.url;
-				nav.longTitle = nav.longTitle || findResult.data.page.longTitle;
 
-				return nav.longTitle;
+				let longTitle = nav.longTitle || findResult.data.page.longTitle;
+
+				if (longTitle != undefined) {
+					return "<h1>" + longTitle + "</h1>";
+				} else {
+					return "";
+				}
 			}
 
 			return "!!!" + key + " navigation entry not found!!!";

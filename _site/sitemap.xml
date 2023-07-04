@@ -130,4 +130,24 @@
 		<loc>https://cleanairbh.com/campaigns/cleanAirActiveTravel/</loc>
 		<lastmod>2023-07-03</lastmod>
 	</url>
+	
+	<url>
+		<loc>https://cleanairbh.com/information/contact/</loc>
+		<lastmod>2023-07-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://cleanairbh.com/information/healthImpact/</loc>
+		<lastmod>2023-07-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://cleanairbh.com/information/pollutionTargets/</loc>
+		<lastmod>2023-07-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://cleanairbh.com/information/aqapProgress/</loc>
+		<lastmod>2023-07-04</lastmod>
+	</url>
 </urlset>
