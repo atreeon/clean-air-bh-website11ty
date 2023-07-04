@@ -32,4 +32,9 @@ The current SCA covers just 7% of the city.
 ### Contact us if you'd like to help deliver Mum's for Lungs flyers
 {% getLinkByKeySC collections.all, "Contact" %}
 
-### Email your councillor and demand a full SCA and action on wood and coal burning LINK TODO EMAIL
+### Email your councillor and demand a full SCA and action on wood and coal burning
+<div class="banner-link">
+	<a href="{% getUrlLinkByKeySC collections.all, 'Your Councillor' %}">
+		Email your Councillor
+	</a>
+</div>
