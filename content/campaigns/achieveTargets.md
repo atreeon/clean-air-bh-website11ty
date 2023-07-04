@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 Brighton & Hove is violating legal UK targets as well as the new local targets.
-Action must be taken to reduce air quality.
+Action must be taken to reduce air pollution.
 
 
 
