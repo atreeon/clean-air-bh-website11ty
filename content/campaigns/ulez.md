@@ -46,4 +46,7 @@ pollution will not be reduced sufficiently.  We need a full ULEZ.
 	</a>
 </div>
 
-<img src="{{ '/img/ulez.jpg' | url }}" width="800"  />
+## Will the Proposed ULEZ Affect You?
+<a href="{{ '/docs/ULEZProposal.pdf' | url }}">Proposed ULEZ - Recommended not charging residents</a>
+
+<img src="{{ '/img/ULEZUnaffected.png' | url }}" width="800"  />

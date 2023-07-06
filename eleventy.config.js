@@ -134,6 +134,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy("public");
 	eleventyConfig.addPassthroughCopy("CNAME");
+	eleventyConfig.addPassthroughCopy("favicon.ico");
 
 	eleventyConfig.addPassthroughCopy("src/img");
 //delete comment

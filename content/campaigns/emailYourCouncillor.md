@@ -53,5 +53,4 @@ If you are unsure of your ward, you can find out here
 We have found the Labour councillors from the previous administration the least willing to engage with us on
 air quality issues so if you do have a Labour councillor please do write to them and tell them how important
 it is for our health to have clean air in our city.  We need to make sure that the new Labour administration
-takes air quality seriously (we have been trying to get a meeting the last two months but Labour seem to
-prioritise other issues).
+takes air quality seriously.
