@@ -18,10 +18,12 @@ One of the main sources of harmful fine particulate air pollution is
 A Smoke Control Area (SCA) is a legal designation that prohibits the emission of excess smoke from chimneys of buildings
 thereby reducing air pollution and improving air quality.
 
-Surprisingly, our city is the largest city in England without a full Smoke Control Area (SCA); we need one but the local
-Labour party has been slow to act and has seemed poorly educated on the subject of air pollution.  In an environment
-committee meeting in 2022 Labour created an amendment to purposefully derail the SCA extension and disrupt progress
-to clean our air.
+Surprisingly, our city is the largest city in the country without a full Smoke Control Area (SCA).
+
+We need full protection but the local Labour party has been against this simple and standard form of regulation and has seemed poorly educated on the subject of air pollution.
+
+In an environment committee meeting in 2022 Labour created an amendment to purposefully derail a scoping exercise into a SCA extension and disrupt progress to clean our air.
+Shockingly they told the committe that 'people should be able to burn what they like'.  We want Brighton & Hove Labour to change its position and support a full SCA and support clean air.
 
 The current SCA covers just 7% of the city.
 
