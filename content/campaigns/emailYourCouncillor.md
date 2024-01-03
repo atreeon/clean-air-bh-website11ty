@@ -12,7 +12,10 @@ Our councillors make decisions that either help or hinder our efforts to improve
 
 Why not write to your councillors and ask them to support clean air initiatives?
 
-Use this form to find out who your councillors are and to email them.
+Labour and Conservative councillors have both recently been the most opposed to the most effective clean air measures
+such as a Clean Air Zone and a Smoke Control Area expansion.  Why not tell them to take our air quality seriously and implement these measures.
+
+Use this dropdown to find out who your councillors are and to email them.
 
 1. Select your ward
 
@@ -38,7 +41,6 @@ Use this form to find out who your councillors are and to email them.
 		<option value="WhitehawkMarina">Whitehawk & Marina</option>
 		<option value="Woodingdean">Woodingdean</option>
 		<option value="Wish">Wish</option>
-		<!-- Add more wards as needed -->
 	</select>
 </div>
 

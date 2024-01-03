@@ -2,7 +2,7 @@
 layout: layouts/topLevel.njk
 eleventyNavigation:
   key: Meetings
-  order: 4
+  order: 10
 script: meetings.js
 ---
 
