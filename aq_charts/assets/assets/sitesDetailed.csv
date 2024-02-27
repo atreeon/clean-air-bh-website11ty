@@ -1,0 +1,325 @@
+"Bradford-on-Avon, Masons Lane (WIL1)", WIL1, 51.348788, -2.252262, 01/06/2014, 58 met, null, Urban Traffic  
+"Guildhall (CT9)", CT9, 51.516212, -0.092238, 25/03/2022, null, 25 met, Urban Backgroun
+"People's Park (sensor) (LUT005)", LUT005, 51.886999, -0.412711, 17/11/2021, null, 3.5 me, Urban Traffic  
+"Barnsley A635 Kendray Roadside (BAR9)", BAR9, 53.546658, -1.453859, 10/11/2009, null, null, Urban Traffic  
+"Bell Wharf Lane (CTA)", CTA, 51.510520, -0.092130, 12/05/2022, null, 1.5 me, Urban Traffic  
+"Birmingham Airport 2 (BAI2)", BAI2, 52.455719, -1.743912, 10/01/2006, null, null, Suburban Indust
+"Bray A308 (sensor) (WM005)", WM005, 51.500276, -0.705166, 08/12/2023, null, 3.5 me, Suburban Backgr
+"Breckland East Wretham (BRE01)", BRE01, 52.462778, 0.814722D, 01/01/2003, null, 0 metr, Rural Backgroun
+"Breckland Swaffham (BRE02)", BRE02, 52.643375, 0.689958D, 16/01/2009, null, 0 metr, Rural Traffic  
+"Burnham Beeches (sensor) (SBPC001)", SBPC001, 51.555698, -0.624745, 16/03/2021, null, null, Rural Backgroun
+"Camden High Street (CD010)", CD010, 51.540139, -0.143722, 24/05/2021, null, null, Urban Traffic  
+"Ealing Alec Reed Academy (sensor) (EAS01)", EAS01, 51.541725, -0.386154, 21/02/2023, null, 2.5 me, Urban Traffic  
+"Ealing Havelock Primary School (sensor) (EAS08)", EAS08, 51.500204, -0.374689, 27/02/2023, null, 2.6 me, Urban Traffic  
+"Fulham Town Centre (HF6)", HF6, 51.480283, -0.196407, 02/06/2023, null, 2.3 me, Urban Traffic  
+"Gateshead Tyne Bridge (GA005)", GA005, 54.965696, -1.603455, 06/04/2018, null, 2 metr, Urban Traffic  
+"Greenwich Westhorne Avenue (GR009)", GR009, 51.456357, 0.040725D, 26/05/2006, null, 3 metr, Urban Traffic  
+"Hackney Amhurst Road (HK010)", HK010, 51.550056, -0.063302, 01/04/2022, null, 3 metr, Suburban Traffi
+"Hackney Queensbridge Road (HK009)", HK009, 51.539324, -0.070078, 01/02/2022, null, 3 metr, Suburban Traffi
+"Hammersmith Town Centre (HF5)", HF5, 51.492695, -0.224787, 05/03/2019, null, 2.3 me, Urban Traffic  
+"Haringey Wood Green (HG005)", HG005, 51.593339, -0.106973, 04/05/2021, null, null, Urban Traffic  
+"Hillingdon Hayes (HIL5)", HIL5, 51.498167, -0.412333, 21/04/2008, 30 met, null, Urban Traffic  
+"Hillingdon Oxford Avenue (HI3)", HI3, 51.481130, -0.423760, 07/03/2005, null, null, Urban Backgroun
+"Hillingdon South Ruislip (HI1)", HI1, 51.552260, -0.402780, 21/09/1999, null, null, Urban Traffic  
+"Hounslow Brentford (HS5)", HS5, 51.489398, -0.310081, 02/06/2003, null, 3 metr, Urban Traffic  
+"Hounslow Chiswick (HS4)", HS4, 51.492507, -0.257252, 26/08/1999, null, 4 metr, Urban Backgroun
+"Hounslow Feltham (HS9)", HS9, 51.447388, -0.408733, 19/08/2009, 2 metr, null, Urban Backgroun
+"Hounslow Gunnersbury (HS8)", HS8, 51.500676, -0.284383, 09/02/2012, 2 metr, null, Urban Traffic  
+"Hounslow Heston (HS6)", HS6, 51.479129, -0.364760, 13/04/2006, null, 3 metr, Urban Traffic  
+"Iver Heath Infant School (sensor) (SBPC002)", SBPC002, 51.536377, -0.520432, 16/06/2021, null, null, Urban Backgroun
+"Iver Heath Junior School (sensor) (SBPC003)", SBPC003, 51.537800, -0.520712, 30/03/2021, null, null, Urban Backgroun
+"Iver Thorney Lane North (sensor) (VS002)", VS002, 51.519876, -0.503680, 01/01/2020, null, 3.1 me, Urban Traffic  
+"Iver Village Junior School (sensor) (SBPC009)", SBPC009, 51.520900, -0.512968, 22/06/2021, null, null, Urban Backgroun
+"Knowle Green Council Offices (sensor) (SBPC004)", SBPC004, 51.430166, -0.499287, 25/03/2021, null, null, Urban Backgroun
+"Luton Airport FutureLuToN (LA001)", LA001, 51.887035, -0.365652, 19/06/2019, null, null, Urban Industria
+"Marlborough London Road 2 (WIL9)", WIL9, 51.419882, -1.725223, 30/01/2017, 128 me, 2.5 me, Urban Traffic  
+"New Forest - Fawley (NF002)", NF002, 50.826958, -1.349945, 01/01/2002, null, 10 met, Urban Industria
+"New Forest - Totton (NF004)", NF004, 50.917451, -1.486590, 01/06/2004, null, 2 metr, Urban Traffic  
+"Oxford St Ebbes (Cal Club) (OX3)", OX3, 51.744856, -1.260338, 01/07/1997, 60 met, null, Urban Backgroun
+"RBKC Earl's Court Road (KC5)", KC5, 51.490198, -0.190863, 01/05/2002, null, null, Urban Traffic  
+"RBKC Holland Park Avenue (sensor) (VS014)", VS014, 51.506192, -0.209427, 23/05/2022, null, null, Urban Backgroun
+"RBKC Kensington High Street 1 (sensor) (VS007)", VS007, 51.502167, -0.190017, 26/05/2021, null, 4 metr, Urban Traffic  
+"RBKC Knightsbridge (KC3)", KC3, 51.499140, -0.164338, 28/03/2000, null, 3 metr, Urban Traffic  
+"RBKC Sedding Street (sensor) (VS008)", VS008, 51.493485, -0.156898, 26/05/2021, null, 4 metr, Urban Traffic  
+"Riverwalk (HF7)", HF7, 51.488687, -0.224181, 10/02/2023, null, 2.3 me, Urban Backgroun
+"Salford M60 (M60)", M60, 53.503784, -2.381239, 01/01/1999, null, null, Urban Traffic  
+"Sands End (HF9)", HF9, 51.466070, -0.191325, 10/02/2023, null, 2.3 me, Urban Traffic  
+"Shepherds Bush Town Centre (HF4)", HF4, 51.504563, -0.224670, 31/10/2011, null, 2 metr, Urban Traffic  
+"Slough Brands Hill London Road (SLH11)", SLH11, 51.489590, -0.537391, 30/08/2017, null, null, Urban Traffic  
+"Slough Town Centre Wellington Street (SLH10)", SLH10, 51.508633, -0.583296, 31/08/2017, null, 1.5 me, Urban Traffic  
+"Slough Windmill Bath Road (SLH12)", SLH12, 51.512230, -0.610393, 30/08/2017, null, 1.5 me, Urban Traffic  
+"South Holland Westmere School (SHOL)", SHOL, 52.772975, 0.181633 , 14/07/1998, null, null, Rural Backgroun
+"Staines Bus Station Bus Stand 3  (sensor) (SBPC008)", SBPC008, 51.432500, -0.509383, 16/06/2021, null, null, Urban Traffic  
+"Tower Hamlets - Blackwall (TH004)", TH004, 51.515046, -0.008418, 08/09/2006, null, 3.5 me, Urban Traffic  
+"Tower Hamlets - Millwall Park (TH001)", TH001, 51.489134, -0.012977, 06/07/2015, null, 1.5 me, Urban Backgroun
+"Waltham Forest Crooked Billet (WL4)", WL4, 51.601728, -0.016442, 01/11/2007, null, 3 metr, Urban Traffic  
+"Windsor St Leonards Road (sensor) (WM004)", WM004, 51.470907, -0.629127, 08/12/2023, null, 3.5 me, Urban Traffic  
+"Wormwood Scrubs (HF8)", HF8, 51.516531, -0.231806, 01/06/2023, null, 2.0 me, Urban Traffic  
+"Wycombe Millbrook School (sensor) (AIY005)", AIY005, 51.637300, -0.780102, 08/06/2023, null, 2.3 me, Suburban Backgr
+"Barnet Chalgrove School (BN2)", BN2, 51.591901, -0.205992, 09/08/2000, null, 3 metr, Urban Backgroun
+"Barnet Tally Ho (BN1)", BN1, 51.614675, -0.176607, 20/12/1998, null, 3 metr, Urban Traffic  
+"Barnsley A628 Roadside Site 2 (BAR11)", BAR11, 53.550392, -1.509678, 26/08/2021, null, 3 metr, Suburban Backgr
+"Bedford Prebend Street (HB011)", HB011, 52.135049, -0.474658, 06/01/2009, null, null, Urban Traffic  
+"Beech Street NOx (CT4)", CT4, 51.520219, -0.096323, 01/01/2003, null, 2.0 me, Urban Traffic  
+"Beech Street PM (CT4a)", CT4a, 51.520177, -0.096455, 01/01/2004, null, 3 metr, Urban Traffic  
+"Bolton A579 Derby Street (BOL03)", BOL03, 53.573002, -2.435176, 20/10/2020, null, null, Urban Traffic  
+"Brent Ikea (BT004)", BT004, 51.552476, -0.258089, 17/05/2006, null, null, Urban Traffic  
+"Bury Bridge (BUR03)", BUR03, 53.594678, -2.306068, 08/08/2022, null, 1.5 me, Urban Traffic  
+"Bury Prestwich (BUR2)", BUR2, 53.524915, -2.277565, 18/09/2002, null, null, Urban Traffic  
+"Bury Radcliffe (BUR1)", BUR1, 53.563481, -2.330732, 01/09/2002, null, null, Urban Traffic  
+"Cambridge Montague Road (CAM5)", CAM5, 52.214201, 0.136545 , 18/04/2007, null, null, Urban Traffic  
+"Cambridge Newmarket Road (CAM4)", CAM4, 52.208430, 0.141521 , 09/05/2002, null, null, Urban Traffic  
+"Cambridge Parker Street (CAM1)", CAM1, 52.204608, 0.125891 , 25/08/1998, null, null, Urban Traffic  
+"Camden - Coopers Lane (KX004)", KX004, 51.533238, -0.129594, 01/07/2009, null, null, Urban Industria
+"Camden - Euston Road (CD009)", CD009, 51.527975, -0.128774, 29/01/2011, null, 2.5 me, Urban Traffic  
+"Cheshire West & Chester - Helsby (HELSB)", HELSB, 53.273269, -2.773889, 19/10/2016, null, null, Urban Backgroun
+"Dacorum Northchurch High Street (HB013)", HB013, 51.770339, -0.591364, 31/10/2012, null, null, Urban Traffic  
+"Devizes, Sidmouth Street (WIL3)", WIL3, 51.352198, -1.990416, 01/01/2014, 133 me, null, Urban Traffic  
+"Ealing Acton Background (sensor) (EAS10)", EAS10, 51.514712, -0.264125, 21/02/2023, null, 2.65 m, Urban Backgroun
+"Ealing Ada Lovelace CofE School (sensor) (EAS03)", EAS03, 51.519733, -0.295648, 21/02/2023, null, 2.5 me, Urban Traffic  
+"Ealing Fields High School (sensor) (EAS06)", EAS06, 51.497022, -0.311504, 22/02/2023, null, 2.6 me, Urban Traffic  
+"Ealing Greenford Background (sensor) (EAS09)", EAS09, 51.527373, -0.364972, 10/05/2023, null, 2.65 m, Urban Backgroun
+"Ealing Khalsa Primary School (sensor) (EAS07)", EAS07, 51.494745, -0.369571, 22/02/2023, null, 2.6 me, Urban Traffic  
+"East Suffolk Woodbridge 2 (SCW2)", SCW2, 52.094862, 1.321286 , 03/01/2006, null, null, Urban Traffic  
+"Farnham South Street (WA004)", WA004, 51.214726, -0.796330, 08/04/2021, null, null, Urban Traffic  
+"Farringdon Street (CT2)", CT2, 51.514741, -0.104522, 01/01/2003, null, 2.0 me, Urban Traffic  
+"Flackwell Heath Juniper Hill School (sensor) (AIY003)", AIY003, 51.595900, -0.702906, 08/06/2023, null, 2.3 me, Suburban Backgr
+"Gateshead A1 Dunston (GA1)", GA1, 54.951529, -1.649945, 01/01/2015, 20 met, 3 metr, Urban Traffic  
+"Gateshead Angel of the North (GA006)", GA006, 54.912184, -1.585010, 01/01/2020, null, null, Urban Traffic  
+"Gateshead Bottle Bank (GA2)", GA2, 54.965944, -1.604438, 01/01/2015, 35 met, 1.7 me, Urban Traffic  
+"Gateshead Lychgate Court (GA3)", GA3, 54.962008, -1.597121, 01/01/2015, 50 met, 3 metr, Urban Traffic  
+"Hackney Dalston Lane (HK014)", HK014, 51.548267, -0.067137, 13/06/2023, null, 1.8 me, Suburban Traffi
+"Hackney Green Lanes (HK013)", HK013, 51.567094, -0.094236, 14/06/2022, null, 1.6 me, Suburban Traffi
+"Hackney Old Street (HK006)", HK006, 51.526454, -0.084910, 01/06/2000, null, 1 metr, Urban Traffic  
+"Hallcroft Road (sensor) (FEN001)", FEN001, 52.556715, -0.136082, 02/02/2023, null, null, Suburban Indust
+"Hatfield West View (HB016)", HB016, 51.770438, -0.231875, 23/09/2020, null, null, Urban Traffic  
+"Heathrow Bath Road (LHRBR)", LHRBR, 51.481071, -0.442092, 19/11/2019, null, null, Urban Traffic  
+"Heathrow Green Gates (T55)", T55, 51.481478, -0.486675, 04/05/2001, 22 met, null, Suburban Indust
+"Heathrow LHR2 (LHR2)", LHR2, 51.479167, -0.440556, 01/01/1993, 26 met, null, Suburban Indust
+"Heathrow Oaks Road (T54)", T54, 51.459444, -0.479444, 04/05/2001, 21 met, null, Suburban Indust
+"Hertsmere Borehamwood Roadside (HB009)", HB009, 51.659803, -0.261916, 09/09/2014, null, null, Urban Backgroun
+"Hillingdon Harmondsworth (HIL1)", HIL1, 51.487989, -0.480984, 01/07/2007, null, null, Urban Backgroun
+"Hillingdon Harmondsworth Osiris (HIL4)", HIL4, 51.487534, -0.479451, 01/07/2007, null, null, Urban Backgroun
+"Hillingdon Sipson (SIPS)", SIPS, 51.484384, -0.455695, 08/09/2006, null, null, Urban Backgroun
+"Hitchin Stevenage Road Particulates (HB003)", HB003, 51.940988, -0.274431, 03/08/2015, null, null, Urban Traffic  
+"Hounslow Hatton Cross (HS7)", HS7, 51.463402, -0.427525, 01/01/2006, 2 metr, null, Urban Backgroun
+"Huntingdon Pathfinder House (HUN01)", HUN01, 52.327932, -0.180369, 01/01/2018, null, 3.2 me, Urban Traffic  
+"London Luton Airport (HB006)", HB006, 51.877650, -0.376297, 16/10/2003, null, null, Urban Industria
+"Luton Dunstable Road East (HB007)", HB007, 51.880154, -0.422144, 27/10/2014, null, null, Urban Traffic  
+"Maidenhead Bridge Road (sensor) (WM001)", WM001, 51.523717, -0.709157, 08/12/2023, null, 3.5 me, Urban Traffic  
+"Manchester Bridge Street (MAN09)", MAN09, 53.481090, -2.249260, 25/09/2022, null, 1.4 me, Urban Traffic  
+"Manchester Oxford Road (MAN1)", MAN1, 53.472024, -2.238911, 08/03/2010, null, null, Urban Traffic  
+"Manchester Sharston (MAHG, an AURN and local authority site)", MAHG, 53.371722, -2.238917, 27/01/2016, 67 met, null, null
+"Marlow Holy Trinity School (sensor) (AIY001)", AIY001, 51.575480, -0.776668, 24/03/2023, null, 2.5 me, Urban Backgroun
+"New Forest - Lyndhurst (NF005)", NF005, 50.872564, -1.577085, 13/12/2004, null, 2 metr, Urban Traffic  
+"North Tyneside Coast Road (NTC01)", NTC01, 54.996476, -1.558763, 01/01/2019, null, 2.5 me, Urban Traffic  
+"Northstowe (NSTOW)", NSTOW, 52.289282, 0.049680 , 01/03/2023, null, null, Suburban Backgr
+"Shaw Crompton Way (CW, an AURN and local authority site)", CW, 53.579227, -2.093844, 01/04/2014, 193 me, 1.8 me, null
+"Oxford High St (OX6)", OX6, 51.752527, -1.250939, 23/06/2003, null, null, Urban Traffic  
+"Plymouth Mutley Plain (PLY02)", PLY02, 50.382541, -4.133874, 27/09/2016, null, null, Urban Traffic  
+"Plymouth Royal Parade (PLY01)", PLY01, 50.370403, -4.144391, 01/10/2016, null, null, Urban Traffic  
+"Princes Risborough School (sensor) (PRPC001)", PRPC001, 51.719348, -0.830598, 06/10/2023, null, null, Urban Backgroun
+"RBKC Chelsea Old Town Hall (KC4)", KC4, 51.487437, -0.168397, 27/09/2000, null, 3 metr, Urban Traffic  
+"RBKC Cromwell Road (KC2)", KC2, 51.495504, -0.178809, 10/05/1998, null, 2 metr, Urban Traffic  
+"RBKC Kensington High Street 2 (sensor) (VS010)", VS010, 51.499802, -0.196634, 26/05/2021, null, 4 metr, Urban Traffic  
+"Reading Caversham Road (REA2)", REA2, 51.464355, -0.977094, 22/11/2006, null, null, Urban Traffic  
+"Reading Oxford Road (REA4)", REA4, 51.461957, -1.012459, 05/12/2007, null, null, Urban Traffic  
+"Redcar Dormanstown (RED3)", RED3, 54.603170, -1.097840, 01/01/2013, 7 metr, null, Urban Industria
+"Reigate and Banstead - Horley South East (RG6)", RG6, 51.161261, -0.162410, 20/09/2016, null, 1.4 me, Suburban Backgr
+"Rochdale Queensway (RDL001)", RDL001, 53.599238, -2.162565, 04/08/2021, null, 3 metr, Urban Traffic  
+"S Cambs Impington (IMP)", IMP, 52.233640, 0.105080 , 01/01/2003, null, null, Urban Traffic  
+"Salford Regent Road (SAL001)", SAL001, 53.475889, -2.263928, 07/09/2023, null, 1.5 me, Urban Traffic  
+"Shepperton Squires Bridge Road (sensor) (SBPC006)", SBPC006, 51.406328, -0.462168, 09/03/2021, null, null, Urban Traffic  
+"Slough Lakeside 2 (SLH8)", SLH8, 51.487764, -0.502656, 22/06/2007, null, null, Urban Backgroun
+"Slough Lakeside 2 Osiris (SLH9)", SLH9, 51.487764, -0.502656, 12/07/2007, null, null, Urban Backgroun
+"Slough Spackmans Way (SLH13)", SLH13, 51.502769, -0.611847, 29/09/2021, null, 1.5 me, Urban Traffic  
+"SODC Henley (HEN)", HEN, 51.536552, -0.903958, 01/12/2006, 40 met, 1.6 me, Urban Traffic  
+"SODC Wallingford (WD1)", WD1, 51.601041, -1.123550, 01/01/2012, 51 met, 1.5 me, Urban Traffic  
+"SODC Watlington (WAT)", WAT, 51.645112, -1.004394, 16/05/2012, null, null, Urban Traffic  
+"South Holland Spalding Monkhouse School (MONK)", MONK, 52.785625, -0.175053, 07/03/2003, null, null, Urban Backgroun
+"Spelthorne Sunbury Cross (SBC01)", SBC01, 51.420250, -0.418515, 10/01/2017, null, 3 metr, Urban Backgroun
+"St Albans Folly Lane (sensor) (STALB003)", STALB003, 51.756069, -0.342809, 02/02/2023, null, null, Urban Traffic  
+"Stevenage St Georges Way South (HB017)", HB017, 51.903121, -0.199343, 04/11/2021, null, null, Urban Traffic  
+"Stockport Cheadle A34 (STK7)", STK7, 53.391717, -2.226280, 01/04/2016, null, null, Urban Traffic  
+"Stockport Hazel Grove (STK5)", STK5, 53.385470, -2.129559, 12/04/2005, null, null, Urban Traffic  
+"Stokenchurch Primary School (sensor) (AIY004)", AIY004, 51.659300, -0.896644, 08/06/2023, null, 2.1 me, Suburban Backgr
+"Sunbury-on-Thames St Ignatius School (sensor) (AIY002)", AIY002, 51.414600, -0.417874, 13/03/2023, null, 3 metr, Urban Backgroun
+"Tameside A635 Manchester Road (TS001)", TS001, 53.482437, -2.113912, 11/09/2020, null, null, Urban Traffic  
+"Tameside Mottram Moor (TAM1)", TAM1, 53.458994, -2.005694, 01/09/2013, null, 3 metr, Urban Traffic  
+"The Aldgate School (CT3)", CT3, 51.513873, -0.077736, 01/01/2003, null, 1.5 me, Urban Backgroun
+"Tower Hamlets - King Edward Memorial Park (TH005)", TH005, 51.509477, -0.050541, 03/05/2023, null, 1.5 me, Urban Traffic  
+"Tower Hamlets - Roadside (TH2P)", TH2P, 51.522530, -0.042155, 01/04/2019, null, 3 metr, Urban Traffic  
+"Tower Hamlets - Victoria Park (TH002)", TH002, 51.540519, -0.033307, 25/07/2012, null, 2 metr, Urban Backgroun
+"Trafford A56 (TRF2)", TRF2, 53.442476, -2.311421, 03/09/2004, null, null, Urban Traffic  
+"Trafford Moss Park (TRAF)", TRAF, 53.448876, -2.320941, 01/11/1998, null, null, Urban Backgroun
+"Trafford Wellacre Academy (TRF3)", TRF3, 53.446366, -2.396556, 20/09/2013, null, 2.5 me, Urban Backgroun
+"VofWH Abingdon Stert St 2 (AB001)", AB001, 51.671198, -1.281400, 09/11/2006, null, 5.5 me, Urban Traffic  
+"Wakefield Castleford (WAK01)", WAK01, 53.722097, -1.344423, 01/01/2019, null, 1.7 me, Urban Traffic  
+"Wakefield City - Newton Bar (WAK04)", WAK04, 53.691969, -1.505749, 01/01/2019, null, null, Suburban Backgr
+"Wakefield City - Park Street (WAK03)", WAK03, 53.678739, -1.491022, 01/01/2019, null, 1.9 me, Urban Traffic  
+"Waltham Forest Dawlish Rd (WL1)", WL1, 51.562376, -0.004898, 05/07/1998, null, null, Urban Backgroun
+"Waltham Forest Leyton (WL5)", WL5, 51.556239, -0.013628, 20/09/2007, null, null, Urban Backgroun
+"Welwyn Hatfield (HB001)", HB001, 51.767563, -0.214824, 28/04/2016, null, null, Urban Traffic  
+"Wendover Wharf Road (sensor) (AIY006)", AIY006, 51.766000, -0.740407, 08/06/2023, null, 2.3 me, Suburban Backgr
+"Wigan Leigh 3 (WIG07)", WIG07, 53.497759, -2.518731, 28/01/2019, null, null, Urban Traffic  
+"Wycombe Abbey 5 (WYA05)", WYA05, 51.624444, -0.753611, 20/07/2020, null, 3 metr, Urban Traffic  
+"York Fulford Road (YK16)", YK16, 53.937724, -1.073270, 01/12/2015, null, 1.65 m, Urban Traffic  
+"York Gillygate (YK7)", YK7, 53.963670, -1.084690, 01/01/2015, null, null, Urban Traffic  
+"York Heworth Green (YK13)", YK13, 53.965951, -1.070219, 01/01/2015, null, null, Urban Traffic  
+"York Holgate (YK8)", YK8, 53.954167, -1.094639, 01/01/2004, null, 2 metr, Urban Traffic  
+"York Nunnery Lane (YK15)", YK15, 53.953411, -1.086275, 01/01/2015, null, null, Urban Traffic  
+"York Plantation Drive (YK018)", YK018, 53.966432, -1.126061, 01/01/2016, null, 1.65 m, Urban Traffic  
+"Beech Hill (sensor) (LUT002)", LUT002, 51.886810, -0.432170, 17/11/2021, null, 3.5 me, Urban Traffic  
+"Downside Primary School (Chaul Lane) (sensor) (LUT003)", LUT003, 51.891390, -0.455110, 17/11/2021, null, 3.5 me, Urban Traffic  
+"Dunstable Road (Bury Park) (sensor) (LUT004)", LUT004, 51.883717, -0.426530, 17/11/2021, null, 3.5 me, Urban Traffic  
+"Ealing John Perryn Primary School (sensor) (EAS04)", EAS04, 51.518746, -0.255176, 21/02/2023, null, 2.6 me, Urban Traffic  
+"Ealing William Perkin CofE School (sensor) (EAS02)", EAS02, 51.538727, -0.349477, 15/03/2023, null, 2.55 m, Urban Traffic  
+"East Herts Hertford Gascoyne Way (HB012)", HB012, 51.795569, -0.076225, 22/08/2016, null, null, Urban Traffic  
+"Godalming Ockford Road 2 (WA001)", WA001, 51.184411, -0.617628, 01/12/2018, null, 2 metr, Urban Traffic  
+"Greenwich Woolwich Flyover (GR008)", GR008, 51.486884, 0.017902D, 17/05/2006, null, 3 metr, Urban Traffic  
+"Hackney Homerton Library (HK011)", HK011, 51.548747, -0.041881, 01/04/2022, null, 3 metr, Suburban Traffi
+"Harston (HARST)", HARST, 52.138430, 0.081422D, 21/03/2023, null, 3 metr, Suburban Backgr
+"Hitchin Stevenage Road (HB002)", HB002, 51.940974, -0.274038, 07/02/2013, null, null, Urban Traffic  
+"Ipswich Chevallier Street (IPS3)", IPS3, 52.064672, 1.138969 , 13/09/2006, null, null, Urban Traffic  
+"Ipswich St Matthews Street (IPS04)", IPS04, 52.060026, 1.147576 , 27/06/2019, null, null, Urban Traffic  
+"Luton & Dunstable Hospital (Lewsey Road) (sensor) (LUT001)", LUT001, 51.893920, -0.475720, 17/11/2021, null, 3.5 me, Urban Traffic  
+"Manchester Air Quality Supersite (MANUSS)", MANUSS, 53.444220, -2.214420, 01/01/2019, null, null, Urban Backgroun
+"Plymouth Moor Lane (PLY03)", PLY03, 50.402502, -4.181563, 04/10/2021, null, null, Urban Traffic  
+"Reigate and Banstead - A23 Hooley (RG7)", RG7, 51.292471, -0.154121, 17/07/2018, null, 2.5 me, Urban Traffic  
+"Salisbury, Exeter Street (WIL4)", WIL4, 51.065247, -1.793793, 01/01/2014, 48 met, null, Urban Traffic  
+"Slough Station Road Langley (SLH14)", SLH14, 51.505401, -0.543999, 02/11/2022, null, 1.5 me, Urban Traffic  
+"St Albans Holywell Hill (sensor) (STALB001)", STALB001, 51.750891, -0.339910, 27/02/2023, null, null, Urban Traffic  
+"St Albans Verulam Road (sensor) (STALB002)", STALB002, 51.751359, -0.341046, 14/02/2023, null, null, Urban Traffic  
+"York Lawrence Street (YK9)", YK9, 53.954663, -1.068241, 01/01/2015, null, null, Urban Traffic  
+"Eastbourne (EB, an AURN site)", EB, 50.805778, 0.271611D, 01/07/2009, 7 metr, null, Urban Backgroun
+"Lullington Heath (LH, an AURN site)", LH, 50.793700, 0.181250D, 04/10/1986, 125 me, null, Rural          
+"Barnsley Gawber (BAR3, an AURN site)", BAR3, 53.562920, -1.510436, 07/07/1997, 100 me, null, Urban Backgroun
+"Barnstaple A39 (BPLE, an AURN site)", BPLE, 51.074793, -4.041924, 14/11/2013, 13 met, 3.5 me, Roadside       
+"Birmingham Ladywood (BMLD, an AURN site)", BMLD, 52.481346, -1.918235, 23/08/2018, 134 me, null, null
+"Blackburn Audley Park (BLAP, an AURN site)", BLAP, 53.746730, -2.467873, 01/09/2023, null, null, Urban Backgroun
+"Blackpool Marton (BLC2, an AURN site)", BLC2, 53.804890, -3.007175, 14/06/2005, 16 met, null, Urban Backgroun
+"Bournemouth (BORN, an AURN site)", BORN, 50.739570, -1.826744, 05/03/2001, 30 met, null, Urban Backgroun
+"Brighton Preston Park (BRT3, an AURN site)", BRT3, 50.840836, -0.147572, 03/11/2004, 10 met, null, Urban Backgroun
+"Camden Kerbside (Swiss Cottage) (CA1, an AURN site)", CA1, 51.544210, -0.175269, 16/05/1996, 50 met, 3 metr, Kerbside       
+"Canterbury (CANT, an AURN site)", CANT, 51.273990, 1.098061D, 02/01/2001, 35 met, null, Urban Backgroun
+"Charlton Mackrell (MACK, an AURN site)", MACK, 51.056250, -2.683450, 03/09/2008, 54 met, null, Rural          
+"Chatham Roadside (CHAT, an AURN site)", CHAT, 51.374264, 0.547970D, 01/07/2010, 80 met, 3.5 me, Roadside       
+"Chesterfield Loundsley Green (CHLG, an AURN site)", CHLG, 53.244131, -1.454946, 01/03/2015, 98 met, 3.5 me, null
+"Chilbolton Observatory (CHBO, an AURN site)", CHBO, 51.149617, -1.438228, 11/01/2016, 78 met, 7 metr, null
+"Crewe Coppenhall (COPP, an AURN site)", COPP, 53.115941, -2.453492, 15/10/2019, 54 met, null, null
+"Dewsbury Ashworth Grange (DYAG, an AURN site)", DYAG, 53.693104, -1.637111, 01/04/2018, 69 met, null, null
+"Glazebury (GLAZ, an AURN site)", GLAZ, 53.460080, -2.472056, 01/04/1988, 21 met, null, Rural          
+"Hartlepool St Abbs Walk (HSAW, an AURN site)", HSAW, 54.683242, -1.203838, 17/10/2017, 7 metr, null, null
+"High Muffles (HM, an AURN site)", HM, 54.334497, -0.808820, 16/07/1987, 267 me, null, Rural          
+"Hull Holderness Road (HULR, an AURN site)", HULR, 53.759013, -0.305678, 01/01/2015, 4 metr, 3.5 me, Rural          
+"Immingham Woodlands Avenue (IMGM, an AURN site)", IMGM, 53.619241, -0.213324, 01/11/2017, 3 metr, null, null
+"Leamington Spa (LEAM, an AURN site)", LEAM, 52.288810, -1.533119, 26/07/1996, 55 met, null, Urban Backgroun
+"Leicester University (LECU, an AURN site)", LECU, 52.619904, -1.127182, 01/10/2013, 83 met, null, Urban Backgroun
+"Leominster (LEOM, an AURN site)", LEOM, 52.221593, -2.736840, 18/07/2005, 75 met, null, Suburban       
+"Liverpool Speke (LVP, an AURN site)", LVP, 53.346330, -2.844333, 21/05/2003, 26 met, null, Urban Backgroun
+"London Bloomsbury (CLL2, an AURN site)", CLL2, 51.522290, -0.125889, 23/01/1992, 20 met, null, Urban Centre   
+"London N. Kensington (RBKC North Kensington) (KC1, an AURN site)", KC1, 51.521050, -0.213492, 01/04/1996, 5 metr, null, Urban Backgroun
+"London Westminster (HORS, an AURN site)", HORS, 51.494670, -0.131931, 17/07/2001, 5 metr, null, Urban Backgroun
+"Manchester Sharston (MAHG, an AURN and local authority site)", MAHG, 53.371722, -2.238917, 27/01/2016, 67 met, null, null
+"Middlesbrough (MID, an AURN site)", MID, 54.569297, -1.220874, 21/04/1995, 10 met, null, Urban Backgroun
+"Milton Keynes Civic Centre (MKCC, an AURN site)", MKCC, 52.044076, -0.761013, 01/03/2023, null, 3 metr, Urban Backgroun
+"Newcastle Cradlewell Roadside (NCA3, an AURN site)", NCA3, 54.986405, -1.595362, 10/03/2008, 42 met, 3 metr, Roadside       
+"Northampton Spring Park (NTN4, an AURN site)", NTN4, 52.272257, -0.916605, 01/04/2017, 88 met, null, null
+"Norwich Lakenfields (NO12, an AURN site)", NO12, 52.614823, 1.302686D, 01/09/2009, 36 met, null, Urban Backgroun
+"Nottingham Centre (NOTT, an AURN site)", NOTT, 52.954730, -1.146447, 02/09/1996, 41 met, null, Urban Centre   
+"Oxford Centre Roadside (OX, an AURN site)", OX, 51.751745, -1.257463, 15/04/1996, 60 met, 3.5 me, Roadside       
+"Oxford St Ebbes (OX8, an AURN site)", OX8, 51.744806, -1.260278, 01/01/2008, 58 met, 3.5 me, Urban Backgroun
+"Plymouth Centre (PLYM, an AURN site)", PLYM, 50.371670, -4.142361, 29/09/1997, 18 met, null, Urban Centre   
+"Portsmouth Anglesea Road (POAR, an AURN site)", POAR, 50.798339, -1.095558, 01/01/2018, 6 metr, null, Rural          
+"Preston (PRES, an AURN site)", PRES, 53.765590, -2.680353, 06/06/2000, 40 met, null, Urban Backgroun
+"Rochester Stoke (ROCH, an AURN site)", ROCH, 51.456170, 0.634889D, 26/01/1996, 14 met, null, Rural          
+"Saltash Callington Road (SASH, an AURN site)", SASH, 50.411463, -4.227678, 01/01/2013, 65 met, null, Roadside       
+"Sheffield Devonshire Green (SHDG, an AURN site)", SHDG, 53.378622, -1.478096, 31/10/2013, 89 met, null, Urban Backgroun
+"Sibton (SIB, an AURN site)", SIB, 52.294400, 1.463497D, 01/07/1973, 46 met, null, Remote         
+"Southampton A33 (SA33, an AURN site)", SA33, 50.920265, -1.463484, 01/01/2016, 5 metr, 2.5 me, Rural          
+"Southend-on-Sea (SEND, an AURN site)", SEND, 51.544166, 0.678331D, 24/07/2000, 37 met, null, Urban Backgroun
+"St Osyth (OSY, an AURN site)", OSY, 51.777874, 1.049010D, 11/05/2002, 8 metr, null, Rural          
+"Stoke-on-Trent A50 Roadside (STKR, an AURN site)", STKR, 52.980436, -2.111898, 22/05/2015, 179 me, 3.5 me, Rural          
+"Sunderland Silksworth (SUN2, an AURN site)", SUN2, 54.883610, -1.406878, 09/12/2004, 110 me, null, Urban Backgroun
+"Swindon Walcot (SWHO, an AURN site)", SWHO, 51.558061, -1.765678, 01/01/2018, 104 me, null, null
+"Thurrock (THUR, an AURN site)", THUR, 51.477070, 0.317969D, 01/09/1996, 8 metr, null, Urban Backgroun
+"Toft Newton (TOFT, an AURN site)", TOFT, 53.374133, -0.449788, 01/09/2023, null, null, Rural          
+"Walsall Woodlands (WAL4, an AURN site)", WAL4, 52.605641, -2.030371, 19/06/2012, 149 me, 3.5 me, Urban Backgroun
+"West Bromwich Kenrick Park (WBKP, an AURN site)", WBKP, 52.508342, -1.986070, 01/04/2019, 156 me, 2 metr, null
+"Weybourne (WEYB, an AURN site)", WEYB, 52.950490, 1.122017D, 30/05/2001, 16 met, null, Rural          
+"Wicken Fen (WFEN, an AURN site)", WFEN, 52.298500, 0.290917D, 15/10/1997, 5 metr, null, Rural          
+"Wigan Centre (WIG5, an AURN site)", WIG5, 53.549140, -2.638139, 08/10/2004, 45 met, null, Urban Backgroun
+"Wirral Tranmere (TRAN, an AURN site)", TRAN, 53.372870, -3.022722, 14/05/2000, 38 met, null, Urban Backgroun
+"Yarner Wood (YW, an AURN site)", YW, 50.597600, -3.716510, 26/06/1987, 119 me, null, Rural          
+"Bath A4 Roadside (BHA4, an AURN site)", BHA4, 51.390922, -2.355030, 24/10/2019, 27 met, null, Rural          
+"Billingham (BIL, an AURN site)", BIL, 54.605370, -1.275039, 01/01/1987, 10 met, null, Urban Industria
+"Birkenhead Borough Road (BBRD, an AURN site)", BBRD, 53.388624, -3.024942, 18/08/2016, 7 metr, null, Rural          
+"Birmingham A4540 Roadside (BIRR, an AURN site)", BIRR, 52.476145, -1.874978, 09/09/2016, 109 me, 2.5 me, Rural          
+"Blackburn Accrington Road (BLAR, an AURN site)", BLAR, 53.747763, -2.452680, 12/05/2014, 142 me, 2.7 me, Rural          
+"Borehamwood Meadow Park (BDMP, an AURN site)", BDMP, 51.662332, -0.270001, 01/10/2017, 85 met, null, null
+"Bradford Mayo Avenue (BDMA, an AURN site)", BDMA, 53.771245, -1.759774, 24/04/2015, 187 me, 1.5 me, Rural          
+"Bristol St Paul's (BRS8, an AURN site)", BRS8, 51.462839, -2.584482, 15/06/2006, 15 met, null, Urban Backgroun
+"Bristol Temple Way (BR11, an AURN site)", BR11, 51.457968, -2.583975, 01/04/2017, 13 met, null, Rural          
+"Burton-on-Trent Horninglow (BOTR, an AURN site)", BOTR, 52.821050, -1.635718, 01/02/2018, 46 met, null, null
+"Bury Whitefield Roadside (BURW, an AURN site)", BURW, 53.559029, -2.293772, 01/03/2015, 102 me, null, null
+"Cambridge Roadside (CAM, an AURN site)", CAM, 52.202370, 0.124456D, 26/06/1999, 19 met, 4 metr, Roadside       
+"Cannock A5190 Roadside (CANK, an AURN site)", CANK, 52.687298, -1.980821, 10/08/2016, 182 me, 3.5 me, Rural          
+"Carlisle Morton A595 (CARM, an AURN site)", CARM, 54.885823, -2.964955, 01/10/2021, 41 met, null, Roadside       
+"Chesterfield Roadside (CHS7, an AURN site)", CHS7, 53.231751, -1.456928, 11/03/2008, 96 met, 2.5 me, Roadside       
+"Christchurch Barrack Road (CHBR, an AURN site)", CHBR, 50.735454, -1.780888, 01/09/2016, 3 metr, 1.5 me, Rural          
+"Coventry Allesley (COAL, an AURN site)", COAL, 52.411628, -1.560189, 11/06/2014, 98 met, 3.5 me, Urban Backgroun
+"Coventry Binley Road (COBR, an AURN site)", COBR, 52.407708, -1.490082, 01/04/2017, 82 met, null, Rural          
+"Derby St Alkmund's Way (DESA, an AURN site)", DESA, 52.922983, -1.469507, 01/01/2017, 51 met, null, Rural          
+"Derby Stockbrook Park (DESB, an AURN site)", DESB, 52.916059, -1.492166, 24/11/2023, null, null, Urban Backgroun
+"Doncaster A630 Cleveland Street (DCST, an AURN site)", DCST, 53.518383, -1.138060, 07/05/2015, 15 met, 1.5 me, Rural          
+"Ealing Horn Lane (EA8, an AURN site)", EA8, 51.518950, -0.265617, 21/05/2014, 30 met, 3.5 me, Roadside       
+"Haringey Roadside (HG1, an AURN site)", HG1, 51.599300, -0.068218, 16/05/1996, 10 met, 3.5 me, Roadside       
+"Honiton (HONI, an AURN site)", HONI, 50.792287, -3.196702, 21/06/2012, 122 me, 1.8 me, Urban Backgroun
+"Horley (HORE, an AURN site)", HORE, 51.165865, -0.167734, 21/11/2007, 40 met, 3.2 me, Urban Backgroun
+"Hull Freetown (HUL2, an AURN site)", HUL2, 53.748780, -0.341222, 06/11/2002, 4 metr, null, Urban Centre   
+"Ladybower (LB, an AURN site)", LB, 53.403370, -1.752006, 15/07/1988, 420 me, null, Rural          
+"Leamington Spa Rugby Road (LEAR, an AURN site)", LEAR, 52.294884, -1.542911, 01/06/2012, 66 met, 3.5 me, Roadside       
+"Leeds Centre (LEED, an AURN site)", LEED, 53.803780, -1.546472, 04/01/1993, 78 met, null, Urban Centre   
+"Leeds Headingley Kerbside (LED6, an AURN site)", LED6, 53.819972, -1.576361, 17/02/2008, 85 met, 3 metr, Kerbside       
+"Leicester A594 Roadside (LEIR, an AURN site)", LEIR, 52.638742, -1.124267, 01/06/2015, 59 met, 3.5 me, Rural          
+"Lincoln Canwick Road (LIN3, an AURN site)", LIN3, 53.221432, -0.534204, 27/07/2011, 7 metr, 3 metr, Roadside       
+"London Bexley (BEX, an AURN site)", BEX, 51.466030, 0.184806D, 01/05/1994, 13 met, null, Suburban       
+"London Haringey Priory Park South (HG4, an AURN site)", HG4, 51.584128, -0.125254, 26/10/2012, 37 met, null, Urban Centre   
+"London Harlington (HRL, an AURN site)", HRL, 51.488790, -0.441614, 01/01/2004, 35 met, null, Airport        
+"London Hillingdon (HIL, an AURN site)", HIL, 51.496330, -0.460861, 02/08/1996, 34 met, null, Urban Backgroun
+"London Honor Oak Park (HP1, an AURN site)", HP1, 51.449674, -0.037418, 01/01/2019, 36 met, null, null
+"London Marylebone Road (MY1, an AURN site)", MY1, 51.522530, -0.154611, 01/01/1997, 35 met, 3.5 me, Kerbside       
+"Luton A505 Roadside (LUTR, an AURN site)", LUTR, 51.892293, -0.462110, 11/03/2015, 136 me, 1.7 me, Rural          
+"Manchester Piccadilly (MAN3, an AURN site)", MAN3, 53.481520, -2.237881, 18/12/1995, 57 met, null, Urban Centre   
+"Newcastle Centre (NEWC, an AURN site)", NEWC, 54.978250, -1.610528, 08/03/1992, 45 met, null, Urban Centre   
+"Nottingham Western Boulevard (NWBV, an AURN site)", NWBV, 52.969377, -1.188851, 01/03/2016, 43 met, null, null
+"Oldbury Birmingham Road (BOLD, an AURN site)", BOLD, 52.502436, -2.003497, 01/09/2014, 151 me, 3.5 me, Rural          
+"Plymouth Tavistock Road (PLYR, an AURN site)", PLYR, 50.411058, -4.130288, 01/01/2017, 107 me, null, null
+"Portsmouth (PMTH, an AURN site)", PMTH, 50.828810, -1.068583, 01/01/2001, 5 metr, null, Urban Backgroun
+"Reading London Road (REA5, an AURN site)", REA5, 51.454896, -0.940382, 04/03/2016, 45 met, 45 met, Rural          
+"Reading New Town (REA1, an AURN site)", REA1, 51.453090, -0.944067, 17/10/2003, 58 met, null, Urban Backgroun
+"Salford Eccles (ECCL, an AURN site)", ECCL, 53.484810, -2.334139, 20/03/1997, 30 met, null, Urban Industria
+"Sandy Roadside (SDY, an AURN site)", SDY, 52.132417, -0.300306, 28/07/2008, 22 met, 3 metr, Roadside       
+"Scunthorpe Town (SCN2, an AURN site)", SCN2, 53.586340, -0.636811, 06/06/2004, 36 met, null, Urban Industria
+"Shaw Crompton Way (CW, an AURN and local authority site)", CW, 53.579227, -2.093844, 01/04/2014, 193 me, 1.8 me, null
+"Sheffield Barnsley Road (SHBR, an AURN site)", SHBR, 53.404950, -1.455815, 01/08/2016, 82 met, 1.5 me, Urban Backgroun
+"Sheffield Tinsley (SHE, an AURN site)", SHE, 53.410580, -1.396139, 28/11/1990, 90 met, null, Urban Backgroun
+"Southampton Centre (SOUT, an AURN site)", SOUT, 50.908173, -1.395757, 04/01/1994, 7 metr, null, Urban Centre   
+"Southwark A2 Old Kent Road (SK5, an AURN site)", SK5, 51.480499, -0.059550, 01/01/2011, 10 met, 2 metr, Roadside       
+"St Helens Linkway (SHLW, an AURN site)", SHLW, 53.451826, -2.742134, 27/09/2016, 32 met, null, Rural          
+"Stanford-le-Hope Roadside (HOPE, an AURN site)", HOPE, 51.518167, 0.439548D, 22/01/2008, 18 met, 3.5 me, Roadside       
+"Stockton-on-Tees A1305 Roadside (SOTR, an AURN site)", SOTR, 54.565819, -1.315900, 01/05/2015, 15 met, 3 metr, Rural          
+"Stockton-on-Tees Eaglescliffe (EAGL, an AURN site)", EAGL, 54.516667, -1.358547, 01/09/2008, 29 met, 3.5 me, Roadside       
+"Stoke-on-Trent Centre (STOK, an AURN site)", STOK, 53.028210, -2.175133, 11/03/1997, 172 me, null, Urban Centre   
+"Storrington Roadside (STOR, an AURN site)", STOR, 50.916932, -0.449548, 01/08/2009, 41 met, 3.5 me, Roadside       
+"Sunderland Wessington Way (SUNR, an AURN site)", SUNR, 54.918390, -1.408391, 15/01/2015, 29 met, 1.5 me, Rural          
+"Telford Hollinswood (TDHD, an AURN site)", TDHD, 52.673471, -2.436692, 01/11/2017, 134 me, null, null
+"Tower Hamlets Roadside (TH2, an AURN site)", TH2, 51.522530, -0.042155, 01/04/1996, 20 met, 3 metr, Roadside       
+"Warrington (WAR, an AURN and local authority site)", WAR, 53.389225, -2.615593, 21/10/2008, 11 met, null, Urban Backgroun
+"Widnes Milton Road (WSMR, an AURN site)", WSMR, 53.365391, -2.731680, 09/03/2015, 13 met, null, Rural          
+"Worthing A27 Roadside (WTHG, an AURN site)", WTHG, 50.832947, -0.379916, 01/10/2016, 14 met, 1.5 me, Rural          
+"York Bootham (YK10, an AURN site)", YK10, 53.967513, -1.086514, 01/01/2008, 15 met, null, Urban Backgroun
+"York Fishergate (YK11, an AURN site)", YK11, 53.951889, -1.075861, 01/01/2008, 16 met, 3 metr, Roadside       
+"Exeter Roadside (EX, an AURN site)", EX, 50.725083, -3.532465, 02/07/1996, 43 met, 2 metr, Roadside       
+"London Eltham (LON6, an AURN site)", LON6, 51.452580, 0.070766D, 01/04/1996, 60 met, null, Suburban       
+"London Teddington Bushy Park (TED2, an AURN site)", TED2, 51.425286, -0.345606, 09/08/2013, 11 met, null, Urban Backgroun
