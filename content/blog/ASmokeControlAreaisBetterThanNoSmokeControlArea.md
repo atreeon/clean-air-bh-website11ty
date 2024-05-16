@@ -21,7 +21,7 @@ An alternative to a SCA is to begin phasing out wood & coal as fuels for domesti
 A complete phase out would be easier to enforce and would be justified.
 In doing so we could reduce pm2.5 emissions by some 20 or 30%
 which in cities could mean even larger reductions to exposure levels where it can hang around on cold windless evenings.
-However Labour don't support phasing it out and have failed to suggest any alternative plan to reduce PM2.5 from domestic solid fuel burning.
+However Labour nor Conservatives don't support phasing it out and have failed to suggest any alternative plan to reduce PM2.5 from domestic solid fuel burning.
 
 Poor Air Quality continues to be the biggest environmental risk to human health (EIC 2023) and contributes to poor health.
 Improving our health and avoiding unnecessary suffering should be the goal.
@@ -43,8 +43,8 @@ for example one of a number of improvements reduces the maximum allowed output o
 This is still too much but currently, in Brighton where the majority is not protected by a SCA, there is no limit at all!
 
 In order to improve health, a complete phase out of wood & coal burning should be the ultimate and urgent goal
-but as neither Labour nor Conservative parties have indicated they want to phase out wood & coal
-all we have left is to expand and properly enforce our SCAs.
+but as neither Labour nor Conservative parties have indicated they want to phase out wood & coal.
+The best we have is to expand and properly enforce our SCAs.
 
 Even if the political will was there it would take a long time for the legislation to pass,
 for example the 2022 update I believe took over three years.
@@ -59,7 +59,9 @@ if a full SCA was brought in, the majority of people would obey that law and sto
 and one would expect that emissions would be reduced.
 A minority would continue but the situation overall would be improved and we do have the new enforcement framework to assist.
 
-Even if the SCA didn't work for the whole city it might provide assistance to a vulnerable individual who is suffering a steady stream of smoke entering into their property.
+Even if the SCA didn't work for the whole city it might provide assistance to a vulnerable individual
+who is suffering a steady stream of smoke entering into their property.
+This alone is justification enough to expand the SCA.
 
 I can only conclude that a full Smoke Control Area is better than a tiny one and I urge our council to take the action required.
 We will support you in this.
