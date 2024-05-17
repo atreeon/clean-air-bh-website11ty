@@ -8,6 +8,7 @@ eleventyNavigation:
 key: Blog Interventions
 parent: Posts
 order: 6
+twitterImage: /img/SCA/SCA_Brighton.png
 ---
 
 Brighton & Hove suffered the highest background particulate pollution in 2023 in England according to DEFRA monitors
