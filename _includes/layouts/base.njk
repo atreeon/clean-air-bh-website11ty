@@ -13,9 +13,10 @@
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
 
+		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:title" content="{{ title or metadata.title }}">
-		<meta name="twitter:domain" content="CleanAirBH.com">
-		<meta name="twitter:image" content="{{ twitterImage or twitterImage.title }}">
+		<meta name="twitter:domain" content="{{ metadata.url }}">
+		<meta name="twitter:image" content="{{ metadata.url }}{{ twitterImage }}">
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
