@@ -1,5 +1,5 @@
 ---
-title: Fourteen Months On Have the Pledges in the 2023 Local Labour Manifesto Been Honoured?
+title: Fourteen Months on Have the Pledges in the 2023 Local Labour Manifesto Been Honoured?
 date: 2024-06-12
 draft: false
 author: adrian
@@ -21,7 +21,7 @@ Well the situation is not so rosy; while other cities have seen large improvemen
 
 This doesn’t look good but our city has many unused tools in its belt.  So, what action is being taken to mitigate this very serious health related issue?
 
-<img src="{{ '/img/LabourManifestoBeenHonoured_2024/Asthma_medicine.png' | url }}" width="800" />
+<img src="{{ '/img/LabourManifestoBeenHonoured_2024/Asthma_medicine.jpg' | url }}" width="800" />
 
 Work is being taken to upgrade the monitoring network.  Better monitoring can provide residents with additional information about when and where the pollution is most harmful and helps vulnerable people, such as those with respiratory illnesses and young children, to avoid the worst pollution and reduce their exposure levels.  It looks likely we will see this soon but the project has been delayed and more importantly it won’t actively lower pollution.
 
