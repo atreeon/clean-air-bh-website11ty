@@ -1,7 +1,7 @@
 ---
 title: Fourteen Months On Have the Pledges in the 2023 Local Labour Manifesto Been Honoured?
 date: 2024-06-12
-draft: true
+draft: false
 author: adrian
 id: LabourManifestoBeenHonoured_2024-06-12
 eleventyNavigation:
