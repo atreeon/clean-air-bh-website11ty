@@ -1,6 +1,6 @@
 ---
 title: Fourteen Months on Have the Pledges in the 2023 Local Labour Manifesto Been Honoured?
-date: 2024-06-12
+date: 2024-06-17
 draft: false
 author: adrian
 id: LabourManifestoBeenHonoured_2024-06-12
@@ -35,7 +35,7 @@ Work is being taken to upgrade the monitoring network.  Better monitoring can pr
 There have been some improvements that should reduce emissions.  The biggest improvement is how the council helped the private bus companies apply and secure funding from central government.  Some of the local buses have now been upgraded to diesel Euro 6 which are ULEZ compliant and emit lower levels of harmful pollution.
 
 
-However even in the small bus only ULEZ zone, 10 to 20% of the buses still don’t meet these ULEZ standards and the private bus companies are a long way away from moving all the buses in Brighton to the cleanest diesel vehicles.  I would prefer the bus companies to upgrade the rest of their fleet to electric buses instead of diesel.  Or alternatively move to trams which are far more efficient compared to electric buses and don’t emit brake, road or tyre particulate pollution.
+However even in our small bus only ULEZ zone, 10 to 20% of the buses still don’t meet these ULEZ standards and the private bus companies are a long way away from moving all the buses in Brighton to the cleanest diesel vehicles.  I would prefer the bus companies to upgrade the rest of their fleet to electric buses instead of diesel.  Or alternatively move to trams which are far more efficient compared to electric buses and don’t emit brake, road or tyre particulate pollution.
 
 
 The most effective and most meaningful way to reduce harmful Nitrogen Dioxide pollution from vehicles is to declare a Clean Air Zone and this should be the priority if providing clean air really is a serious intention.  A Clean Air Zone would allow our council to make an application for a slice of the £900 million in government funding to help low income drivers switch to cleaner vehicles and alternative transport.  A Clean Air Zone would help regulate the most polluting vehicles and help those whose health has been harmed by pollution.  The worst off in our society are surely those with poor health.
