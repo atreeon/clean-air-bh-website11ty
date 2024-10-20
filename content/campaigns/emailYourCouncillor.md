@@ -12,47 +12,19 @@ Our councillors make decisions that either help or hinder our efforts to improve
 
 Why not write to your councillors and ask them to support clean air initiatives?
 
-Labour and Conservative councillors have both recently been the most opposed to the most effective clean air measures
-such as a Clean Air Zone and a Smoke Control Area expansion.  Why not tell them to take our air quality seriously and implement these measures.
+The council is majority Labour but all councillors can be contacted and can push for change.
 
-Use this dropdown to find out who your councillors are and to email them.
+Labour promised in their February 2023 local manifesto to “bring an end to noisy and polluting diesel vehicles” but we feel they aren't doing enough.
 
-1. Select your ward
+<a href="https://democracy.brighton-hove.gov.uk/mgMemberIndex.aspx?FN=WARD&VW=TABLE&PIC=1" target="_blank">EMAIL YOUR COUNCILLOR</a>
 
-<div class="dropdown">
-	<select id="wardDropdown">
-		<option value="" selected disabled>Select Ward</option>
-		<option value="BrunswickAdelaide">Brunswick & Adelaide</option>
-		<option value="CentralHove">Central Hove</option>
-		<option value="ColdeanStanmer">Coldean & Stanmer</option>
-		<option value="Goldsmid">Goldsmid</option>
-		<option value="HanoverElmGrove">Hanover & Elm Grove</option>
-		<option value="HangletonKnoll">Hangleton & Knoll</option>
-		<option value="HollingdeanFiveways">Hollingdean & Fiveways</option>
-		<option value="Kemptown">Kemptown</option>
-		<option value="MoulsecoombBevendean">Moulsecoomb & Bevendean</option>
-		<option value="NorthPortslade">North Portslade</option>
-		<option value="PrestonPark">Preston Park</option>
-		<option value="QueensPark">Queen's Park</option>
-		<option value="Regency">Regency</option>
-		<option value="RottingdeanWestSaltdean">Rottingdean & West Saltdean</option>
-		<option value="WestbournePoetsCorner">Westbourne & Poets’ Corner</option>
-		<option value="WestdeneHovePark">Westdene & Hove Park</option>
-		<option value="WhitehawkMarina">Whitehawk & Marina</option>
-		<option value="Woodingdean">Woodingdean</option>
-		<option value="Wish">Wish</option>
-	</select>
-</div>
+Why not ask them to honour their manifesto promises and introduce a Clean Air Zone like other councils?
+Clean Air Zones are the most effective way to reduce harmful Nitrogen Dioxide pollution.
 
-2. Press the Compose Email button and write to your councillor
+Or perhaps you could ask them to expand the Smoke Control Area to cover the whole of Brighton?
+Did you know that the majority of the city is not protected by a Smoke Control Area
+and Brighton & Hove is the largest city without a full Smoke Control Area in England?
 
-<button onclick="generateEmail()">Compose Email</button>
+Or perhaps you could ask why non compliant buses are still allowed to operate in the bus only voluntary ULEZ zones withou any penalty?
 
-If you are unsure of your ward, you can find out here
 
-<a href="https://www.brighton-hove.gov.uk/council-and-democracy/councillor-ward-map" target="_blank">https://www.brighton-hove.gov.uk/council-and-democracy/councillor-ward-map</a>
-
-We have found the Labour councillors from the previous administration the least willing to engage with us on
-air quality issues so if you do have a Labour councillor please do write to them and tell them how important
-it is for our health to have clean air in our city.  We need to make sure that the new Labour administration
-takes air quality seriously.
