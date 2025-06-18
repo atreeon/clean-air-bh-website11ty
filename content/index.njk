@@ -1,9 +1,7 @@
 ---
 layout: layouts/home.njk
-numberOfLatestPostsToShow: 3
+numberOfLatestPostsToShow: 0
 ---
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 
 <div class="image-container">
   <img class="centerImage" src="{{ '/img/Royal_Pavillion_Brighton.jpg' | url }}" width="100%" />
@@ -12,64 +10,15 @@ numberOfLatestPostsToShow: 3
       <h1 class="overlay-text">CLEAN AIR for BRIGHTON & HOVE</h1>
     </div>
     <div class="overlay-box">
-      <h2 class="secondary-title">Campaigning for Clean Air for Everyone</h2>
+      <h2 class="secondary-title">Campaigning for Clean Air</h2>
     </div>
   </div>
-</div>
-
-<div class="banner-link">
-	<a href="{% getUrlLinkByKeySC collections.all, "Register" %}">
-		Register for the Newsletter
-	</a>
-</div>
-
-<br />
-
-<div class="banner-link">
-	<a href="{% getUrlLinkByKeySC collections.all, 'Your Councillor' %}">
-		Email your Councillor
-	</a>
 </div>
 
 <br />
 
 <div class="our-vision">
-	<h1>OUR VISION</h1>
-	Air pollution is a public health crisis and our elected representatives are not doing enough to tackle it.
-	Polluted air is linked to asthma, heart disease, strokes, dementia, diabetes, cancer and reduced life expectancy.
-	<br /><br />
-	Air pollution is particularly harmful to children and babies.  It can cause asthma, stunt lung growth and reduce life expectancy.
-	<br /><br />
-	It is the top environmental risk to human health in the UK.
-	Brighton & Hove has some of the UKs most polluted roads and, due to a lack of regulation, we are one of the least protected in the UK.
-	<br /><br />
-	The red on the map shows illegal levels of pollution.
-	<br /><br />
-	We are campaigning for clean air for everyone, please join us.
-	<br /><br />
-	<img src="{{ '/img/CentralBrighton_NO2.jpg' | url }}" />
+	<h1>A BREAK</h1>
+	We're currently on a break at the moment with not planned return.  Feel free to email us though on cleanairbh@gmail.com
 </div>
-
-
-
-<h1>Latest Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
-
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
-
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
-{% endif %}
-
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#}
-
 

@@ -12,20 +12,6 @@ layout: layouts/base.njk
 						</a>
 					</div>
 				</li>
-			{% set currentItem = collections.all | getCurrentItem(page.url) %}
-			{% set parentsData = collections.all | getParents(currentItem.key) %}
-			{%- for entry in collections.all | eleventyNavigation %}
-				<li class="nav-item {% if (entry.url == page.url) or (parentsData | containsParent(entry.key)) %}nav-item-selected{% endif %}">
-					<div class="nav-item-spacer">
-						<div></div>
-						<div class="key-{{ entry.title }} nav-item2">
-							<a href="{{ entry.url }}"{% if (entry.url == page.url) or (parentsData | containsParent(entry.key)) %} aria-current="page"{% endif %}>{{ entry.title }}
-							</a>
-						</div>
-						<div></div>
-					</div>
-				</li>
-			{%- endfor %}
 				<li>
 					<div class="social-links">
 						<a href="mailto:{{ metadata.email }}"><i class="fa fa-envelope-open"></i></a>
