@@ -1,7 +1,9 @@
 ---
 layout: layouts/home.njk
-numberOfLatestPostsToShow: 0
+numberOfLatestPostsToShow: 3
 ---
+{% set postsCount = collections.posts | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 
 <div class="image-container">
   <img class="centerImage" src="{{ '/img/Royal_Pavillion_Brighton.jpg' | url }}" width="100%" />
@@ -15,10 +17,33 @@ numberOfLatestPostsToShow: 0
   </div>
 </div>
 
+<div class="banner-link">
+	<a href="{% getUrlLinkByKeySC collections.all, "Register" %}">
+		Register for the Newsletter
+	</a>
+</div>
+
 <br />
 
 <div class="our-vision">
-	<h1>A BREAK</h1>
-	We're currently on a break at the moment with not planned return.  Feel free to email us though on cleanairbh@gmail.com
 </div>
 
+<h1>Latest Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
+{% endif %}
+
+{# List every content page in the project #}
+{#
+<ul>
+	{%- for entry in collections.all %}
+	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	{%- endfor %}
+</ul>
+#}
