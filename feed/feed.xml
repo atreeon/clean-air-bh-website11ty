@@ -4,12 +4,25 @@
 	<subtitle>Clean Air for Brighton &amp; Hove.We campaign for better air quality in the city.We want to reduce the high air pollution levels in Brighton &amp; Hove.</subtitle>
 	<link href="https://cleanairbh.com/feed/feed.xml" rel="self"/>
 	<link href="https://cleanairbh.com/"/>
-	<updated>2025-06-20T00:00:00Z</updated>
+	<updated>2025-06-22T00:00:00Z</updated>
 	<id>https://CleanAirBH.com/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Clean Air Day Walk</title>
+		<link href="https://cleanairbh.com/blog/CleanAirWalk/"/>
+		<updated>2025-06-22T00:00:00Z</updated>
+		<id>https://cleanairbh.com/blog/CleanAirWalk/</id>
+		<content type="html">&lt;p&gt;A successful clean air walk took place on Clean Air Day.&lt;/p&gt;
+&lt;p&gt;It was lovely to see a number of doctors and other health care professionals join the walk from the Royal Sussex hospital to Brighton Town Hall.&lt;/p&gt;
+&lt;p&gt;Dr Gary Fuller, Clean air champion for UK joined us too!&lt;/p&gt;
+&lt;img src=&quot;https://cleanairbh.com/img/Walk1.jpeg&quot; width=&quot;800&quot;&gt;
+&lt;img src=&quot;https://cleanairbh.com/img/Walk2.jpeg&quot; width=&quot;800&quot;&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Open Letter to Councillors - Royal College of Physicians 2025 Air Pollution Report, Traffic Plan, Council is Failing its Own Air Pollution Targets, Bus Only ULEZ Cancelled?</title>
